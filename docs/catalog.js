@@ -406,40 +406,6 @@ window.PROJECTS = [
     }
   },
   {
-    "id": "orpob",
-    "title": "Orpob",
-    "category": "Action & physics",
-    "genre": "Minimal ring-out fighter",
-    "players": "Local two-player",
-    "stage": "Playable prototype",
-    "pitch": "Every wall is a path. Every death is a fall.",
-    "description": "Ants crawl around the outside of a small floating world. Kick for movement, hook a rival into trouble and blast them away from safety. There are no health bars: winning means turning a displacement into a fall.",
-    "loop": [
-      "Crawl around platforms, walls and ceilings.",
-      "Use Kick to move and reposition.",
-      "Pull with Hook or push with Blast.",
-      "Win ring-outs and take the short match."
-    ],
-    "note": "A deliberately compact one-arena local game. Historical captures may show earlier ability experiments; the current kit is Kick, Hook and Blast.",
-    "images": [
-      {
-        "src": "assets/orpob/01.jpg",
-        "caption": "Four native bots use the current Kick, Hook and Blast kit."
-      },
-      {
-        "src": "assets/orpob/02.jpg",
-        "caption": "A real attributed ring-out and falling ants."
-      }
-    ],
-    "video": {
-      "src": "assets/orpob/film.mp4",
-      "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "20 SEC",
-      "note": "Captured from a running build with scripted inputs or native bots. Silent development footage."
-    }
-  },
-  {
     "id": "seven-ants-underground",
     "title": "7 Ants Underground",
     "category": "Action & physics",
@@ -478,40 +444,6 @@ window.PROJECTS = [
     }
   },
   {
-    "id": "card-scalper",
-    "title": "Card Scalper",
-    "category": "Action & physics",
-    "genre": "Ragdoll retail brawler",
-    "players": "Solo vs AI",
-    "stage": "Playable prototype",
-    "pitch": "The early bird gets the cardboard.",
-    "description": "A card-store opening turns into a floppy physics competition. Fight other shoppers for valuable packs, carry them through a cramped shop and hold your ground at the register long enough to check out. Unbanked cardboard is everyone’s problem.",
-    "loop": [
-      "Rush the shelves when the store opens.",
-      "Grab valuable packs before AI competitors do.",
-      "Push, grapple and carry your haul to checkout.",
-      "Bank the most value before time or stock runs out."
-    ],
-    "note": "An active-ragdoll Unity prototype with packs, AI competitors, combat, checkout and timed round scoring.",
-    "images": [
-      {
-        "src": "assets/card-scalper/01.jpg",
-        "caption": "A real round inside the card store, with packs and AI competitors."
-      },
-      {
-        "src": "assets/card-scalper/02.jpg",
-        "caption": "The existing ragdoll store build in motion during capture."
-      }
-    ],
-    "video": {
-      "src": "assets/card-scalper/film.mp4",
-      "kind": "reel",
-      "label": "Screenshot concept reel",
-      "duration": "16 SEC",
-      "note": "An animated concept reel made from two genuine screenshots of the existing player build; not recorded gameplay footage."
-    }
-  },
-  {
     "id": "shpinky-dinky",
     "title": "ShpinkyDinky",
     "category": "Action & physics",
@@ -529,24 +461,24 @@ window.PROJECTS = [
     "note": "A host-authoritative combat prototype. Captures document real development sessions, including bot-driven verification matches.",
     "images": [
       {
-        "src": "assets/shpinky-dinky/01.jpg",
-        "caption": "A real bot match in the utility chamber."
+        "src": "assets/shpinky-dinky/01-bank-shot.jpg",
+        "caption": "A deliberately angled bounce pad redirects a real blaster shot toward the red opponent."
       },
       {
-        "src": "assets/shpinky-dinky/02.jpg",
-        "caption": "Players and live sabotage during an active round."
+        "src": "assets/shpinky-dinky/02-goo-exit.jpg",
+        "caption": "The runner crosses a prepared goo lane while the dropped bomb counts down."
       },
       {
-        "src": "assets/shpinky-dinky/03.jpg",
-        "caption": "A round resolves after an actual player death."
+        "src": "assets/shpinky-dinky/03-vent-trap.jpg",
+        "caption": "A shove vent forces the opponent toward the bomb waiting at the exit."
       }
     ],
     "video": {
-      "src": "assets/shpinky-dinky/film.mp4",
+      "src": "assets/shpinky-dinky/film-engineered.mp4",
       "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "23 SEC",
-      "note": "Actual two-process host/client bot match with legal actions and real round outcomes. Silent footage."
+      "label": "Engineered kills showcase",
+      "duration": "27 SEC",
+      "note": "Four scripted duels show each setup and payoff. Real game physics and damage, staged starting positions, simplified device labels and edited timing. Includes native game audio."
     }
   },
   {
@@ -623,40 +555,6 @@ window.PROJECTS = [
       "label": "Gameplay trailer",
       "duration": "15 SEC",
       "note": "Captured from a running build with scripted inputs or native bots. Silent development footage."
-    }
-  },
-  {
-    "id": "anthro-world",
-    "title": "AnthroWorld",
-    "category": "Simulation",
-    "genre": "Observer terrarium",
-    "players": "Solo observer",
-    "stage": "Simulation experiment",
-    "pitch": "Set the conditions. Watch a life unfold.",
-    "description": "A persistent valley runs through seasons, weather, growth, illness and generations. Named keepers tend, build, talk and form families while an observer nudges conditions and reads the journal. In the experiment, external AI processes supply the inhabitants’ decisions.",
-    "loop": [
-      "Observe the valley and its inhabitants.",
-      "Nudge time, weather or a small gift.",
-      "Watch autonomous routines, relationships and generations unfold.",
-      "Return to the accumulated memories, journal and changed world."
-    ],
-    "note": "An experimental simulation with an external AI/file-bridge setup. The gallery uses saved renderer captures and does not run any AI service.",
-    "images": [
-      {
-        "src": "assets/anthro-world/01.jpg",
-        "caption": "A saved renderer view of the living valley."
-      },
-      {
-        "src": "assets/anthro-world/02.jpg",
-        "caption": "Another historical view of the persistent terrarium."
-      }
-    ],
-    "video": {
-      "src": "assets/anthro-world/film.mp4",
-      "kind": "reel",
-      "label": "Screenshot concept reel",
-      "duration": "16 SEC",
-      "note": "An animated concept reel made from historical game-renderer screenshots. No live AI simulation was run."
     }
   },
   {

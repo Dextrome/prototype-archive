@@ -1,6 +1,6 @@
 # 7ants — The Prototype Archive
 
-A buildless, responsive gallery of 22 unreleased games and concept studies, with gameplay loops, 61 screenshots, and 22 films. Slot Theory, DexUO and Bloodline are excluded.
+A buildless, responsive gallery of 19 unreleased games and concept studies, with gameplay loops, 55 screenshots, and 19 films. Slot Theory, DexUO, Bloodline, Card Scalper, AnthroWorld and Orpob are excluded.
 
 ## Open it
 
@@ -21,3 +21,5 @@ Keep the distinction between real gameplay, staged concepts and screenshot reels
 The gallery contains rendered media, not the game source projects or models. Refer to the media credits before reusing assets.
 
 Gurk has an extended 1:56 feature trailer with an original score and game foley. Its real-renderer footage uses staged setups; the media notes describe the capture method.
+
+ShpinkyDinky’s 27-second engineered-kills showcase uses four scripted scenarios and native game audio. Each one demonstrates a verified interaction and outcome rather than random bot movement.
