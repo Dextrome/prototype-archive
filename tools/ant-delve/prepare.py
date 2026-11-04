@@ -26,6 +26,7 @@ code = code.replace('        ParseDemoArgs();', '        ParseDemoArgs();\n     
 code = code.replace('        UpdateLobbyBackdropVisibility();', '        if (_trailerActive) { TrailerTick(); return; }\n        UpdateLobbyBackdropVisibility();', 1)
 controller.write_text(code, encoding='utf-8')
 shutil.copy2(here / 'TrailerDirector.cs', a.output / 'Scripts/Core/TrailerDirector.cs')
+shutil.copy2(here / 'FourPlayerDirector.cs', a.output / 'Scripts/Core/FourPlayerDirector.cs')
 # Presentation-only capture adjustments: keep the ant visible beside the pit
 # and hold combat beats long enough to read their native HP/damage numbers.
 for relative, old, new in (

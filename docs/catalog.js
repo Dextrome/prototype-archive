@@ -360,11 +360,11 @@ window.PROJECTS = [
       }
     ],
     "video": {
-      "src": "assets/ant-delve/film-gameplay.mp4",
+      "src": "assets/ant-delve/film-gameplay.mp4?v=be6257dd21b3",
       "kind": "gameplay",
-      "label": "Dig, mine & return showcase",
-      "duration": "52 SEC",
-      "note": "Actual gameplay with staged starting positions: connect a tunnel, mine sugar over three turns, bank the haul and clear an antlion chamber. Scripted legal commands, focused cameras and explanatory captions. Rival turns omitted; combat playback slowed for clarity. Silent."
+      "label": "Colony turns & four-player gameplay",
+      "duration": "1:26",
+      "note": "Eight complete turns across four rounds at 1.5×, followed by a zoomed-out four-colony AI match at 6× speed. Watch routes grow, workers mine and return home, scores bank and an antlion fall. The opening has a staged start; the finale uses the standard map and native AI. Speeds are labeled, and captions follow native outcomes. Silent."
     }
   },
   {
