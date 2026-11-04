@@ -1,6 +1,6 @@
 # 7ants — The Prototype Archive
 
-A buildless, responsive gallery of 18 unreleased games and concept studies, with gameplay loops, 51 screenshots, and 18 films. Slot Theory, DexUO, Bloodline, Card Scalper, AnthroWorld, Orpob and BlorpBrawl are excluded.
+A buildless, responsive gallery of 16 unreleased games and concept studies, with gameplay loops, 46 screenshots, and 16 films. Slot Theory, DexUO, Bloodline, Card Scalper, AnthroWorld, Orpob, BlorpBrawl, Corpse City and The Ossuary are excluded.
 
 ## Open it
 
@@ -16,7 +16,7 @@ To preview locally, open `docs/index.html` directly, or serve `docs` with any st
 - Media: `docs/assets/<project-id>/`.
 - Credits and staging disclosures: `docs/credits.html`.
 
-Keep the distinction between real gameplay, staged concepts and screenshot reels when replacing media. The five original factory concept films preserve their authored sequence. New edits follow the same immediate hook → interaction → consequence → payoff structure.
+Keep the distinction between real gameplay, staged concepts and screenshot reels when replacing media. The three included factory concept films preserve their authored sequence. New edits follow the same immediate hook → interaction → consequence → payoff structure.
 
 The gallery contains rendered media, not the game source projects or models. Refer to the media credits before reusing assets.
 
