@@ -377,32 +377,32 @@ window.PROJECTS = [
     "pitch": "Hell has quotas. You have a debt.",
     "description": "Operate an infernal soul-processing machine under an increasingly unpleasant contract. Choose starter equipment, accept clauses, juggle heat and pressure, and decide whether an extra payout is worth another chance of catastrophe.",
     "loop": [
-      "Procure a starting machine within the budget.",
-      "Choose a contract and operating directive.",
+      "Start a run and procure four machine parts within the budget.",
+      "Pick a contract and authorize an operating directive.",
       "Run the shift, manage meters and respond to incidents.",
-      "Take the payout, repay debt and prepare for the next shift."
+      "Collect the result, choose upgrades and repay debt before the next shift."
     ],
-    "note": "A five-shift standard prototype and a two-shift employee orientation are playable. The larger management game remains a work in progress.",
+    "note": "Five-shift standard runs and a two-shift employee orientation are playable. Contracts, operating directives, mid-shift decisions, between-shift upgrades and debt repayment shape each run.",
     "images": [
       {
-        "src": "assets/hellgrinder/01.jpg",
-        "caption": "The infernal machine starts processing souls."
+        "src": "assets/hellgrinder/01-operated-machine.jpg",
+        "caption": "The fifth shift: the original machine now carries a vent, Pressure Valve, Greed Flywheel and Audit Scrubber."
       },
       {
-        "src": "assets/hellgrinder/02.jpg",
-        "caption": "A staged critical-meter beat shows the meltdown warning."
+        "src": "assets/hellgrinder/02-procurement.jpg",
+        "caption": "Procurement selects four parts within 160 Bloodcoin; this build costs 120 and retains 40."
       },
       {
-        "src": "assets/hellgrinder/03.jpg",
-        "caption": "The real Vent action brings heat back below critical while the shift continues."
+        "src": "assets/hellgrinder/03-run-result.jpg",
+        "caption": "The native success screen after five shifts: 350 debt, below the prototype’s 500 target."
       }
     ],
     "video": {
-      "src": "assets/hellgrinder/film.mp4",
-      "kind": "staged",
-      "label": "Staged concept film",
-      "duration": "16 SEC",
-      "note": "Staged in-engine showcase: critical meters are set for the scene, then the real Vent action rescues the machine. Silent footage."
+      "src": "assets/hellgrinder/film-full-loop.mp4",
+      "kind": "gameplay",
+      "label": "Full run gameplay",
+      "duration": "1:34",
+      "note": "A complete standard-run arc: start, equipment, contracts, directives, operator actions, a purity rejection, upgrades, incidents, debt payments and the final success screen. Normal starting funds and native outcomes; forward cuts skip unshown play. Includes explanatory captions and native procedural audio."
     }
   },
   {
