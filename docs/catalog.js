@@ -238,23 +238,23 @@ window.PROJECTS = [
       "Earn score and lives from repeated creep kills.",
       "Reinvest wave income in the maze, upgrades and research."
     ],
-    "note": "Working title for the EntropyRemake project. The playable scope is solo, with six tutorials and local ranked seeds.",
+    "note": "Working title for the EntropyRemake project. The playable scope is solo, with six tutorials and local ranked seeds. The progression film uses the Pocket practice seed, native bot maze plans and curated purchases; the original project and game rules are unchanged.",
     "images": [
       {
-        "src": "assets/mazacre-td/01.jpg",
-        "caption": "Wave one moves through the bot-built maze while towers fire."
+        "src": "assets/mazacre-td/01-checkpoint-groups.jpg",
+        "caption": "Editorial colors identify two checkpoint groups and the shared choke that the required route crosses four times."
       },
       {
-        "src": "assets/mazacre-td/02.jpg",
-        "caption": "Wave two tests the expanded maze and upgraded towers."
+        "src": "assets/mazacre-td/02-developed-maze.jpg",
+        "caption": "Wave nine runs through the expanded maze with a specialized Piledriver, local upgrades, depots, blockers and all four research categories purchased."
       }
     ],
     "video": {
-      "src": "assets/mazacre-td/film.mp4",
+      "src": "assets/mazacre-td/film-progression.mp4",
       "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "20 SEC",
-      "note": "Captured from a running build with scripted inputs or native bots. Silent development footage."
+      "label": "Run progression showcase",
+      "duration": "1:17",
+      "note": "A nine-wave solo run grows the maze from 37 to 190 route cells. Explains checkpoint groups and a shared choke, Piledriver specialization, local damage/speed upgrades, supply depots, blockers and all four research choices. Native UI purchases spend earned minerals. Bot-planned maze with curated upgrades; native 4× combat, short held planning shots and game sound effects."
     }
   },
   {
