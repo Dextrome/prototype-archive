@@ -1,0 +1,487 @@
+[
+  {
+    "action": "plan",
+    "seed": 2,
+    "steps": [
+      "reckless_compliment",
+      "small_talk",
+      "small_talk",
+      "homemade_gift",
+      "end_turn",
+      "small_talk"
+    ],
+    "finalAffection": 27
+  },
+  {
+    "frame": 90,
+    "action": "choose crop",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 150,
+    "action": "plant blood turnip",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 240,
+    "action": "forward growth by 8 minutes",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 330,
+    "action": "harvest",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 480,
+    "action": "harvest adds reckless compliment",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 540,
+    "action": "inspect deck",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 720,
+    "action": "start cemetery picnic",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 855,
+    "action": "compliment picnic blanket",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 960,
+    "action": "begin native card encounter",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 1005,
+    "action": "reckless_compliment",
+    "affection": 10,
+    "energy": 2,
+    "turn": 1,
+    "awkwardness": 4,
+    "outcome": "Ongoing"
+  },
+  {
+    "frame": 1005,
+    "action": "reckless_compliment",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 1080,
+    "action": "small_talk",
+    "affection": 13,
+    "energy": 2,
+    "turn": 1,
+    "awkwardness": 4,
+    "outcome": "Ongoing"
+  },
+  {
+    "frame": 1080,
+    "action": "small_talk",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 1155,
+    "action": "small_talk",
+    "affection": 16,
+    "energy": 2,
+    "turn": 1,
+    "awkwardness": 4,
+    "outcome": "Ongoing"
+  },
+  {
+    "frame": 1155,
+    "action": "small_talk",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 1230,
+    "action": "homemade_gift",
+    "affection": 24,
+    "energy": 0,
+    "turn": 1,
+    "awkwardness": 4,
+    "outcome": "Ongoing"
+  },
+  {
+    "frame": 1230,
+    "action": "homemade_gift",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 1305,
+    "action": "end_turn",
+    "affection": 24,
+    "energy": 3,
+    "turn": 2,
+    "awkwardness": 4,
+    "outcome": "Ongoing"
+  },
+  {
+    "frame": 1305,
+    "action": "end_turn",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Stranger",
+    "won": []
+  },
+  {
+    "frame": 1380,
+    "action": "small_talk",
+    "affection": 27,
+    "energy": 3,
+    "turn": 2,
+    "awkwardness": 4,
+    "outcome": "Win"
+  },
+  {
+    "frame": 1380,
+    "action": "small_talk",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Bond",
+    "won": [
+      "cemetery_picnic"
+    ]
+  },
+  {
+    "frame": 1590,
+    "action": "resolve date dialogue",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Bond",
+    "won": [
+      "cemetery_picnic"
+    ]
+  },
+  {
+    "frame": 1710,
+    "action": "return to garden",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Bond",
+    "won": [
+      "cemetery_picnic"
+    ]
+  },
+  {
+    "frame": 1795,
+    "action": "verified native bond and date win",
+    "deck": [
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "small_talk",
+      "compliment",
+      "compliment",
+      "compliment",
+      "change_the_subject",
+      "change_the_subject",
+      "change_the_subject",
+      "homemade_gift",
+      "homemade_gift",
+      "nervous_laugh",
+      "nervous_laugh",
+      "reckless_compliment"
+    ],
+    "bond": "Bond",
+    "won": [
+      "cemetery_picnic"
+    ]
+  }
+]

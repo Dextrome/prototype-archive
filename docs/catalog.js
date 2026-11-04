@@ -440,11 +440,11 @@ window.PROJECTS = [
       }
     ],
     "video": {
-      "src": "assets/rot-garden-romance/film.mp4",
-      "kind": "staged",
-      "label": "Staged concept film",
-      "duration": "19 SEC",
-      "note": "Staged in-engine showcase: crop growth is accelerated and introductory dialogue skipped; planting, harvest rewards and date card effects use real rules. Silent footage."
+      "src": "assets/rot-garden-romance/film-gameplay.mp4",
+      "kind": "gameplay",
+      "label": "Gameplay trailer",
+      "duration": "1:00",
+      "note": "A garden-to-date gameplay story: grow a Blood Turnip, harvest Reckless Compliment and play Mira’s Cemetery Picnic through to a real Bond. Scripted inputs use native planting, rewards, dialogue, card effects and progression. Growth time is skipped; dialogue is advanced for readable holds. Silent footage."
     }
   },
   {

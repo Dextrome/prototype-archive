@@ -1,0 +1,86 @@
+[
+  [
+    0,
+    3,
+    "7ANTS / A FARMING & DATING PROTOTYPE",
+    "ROT GARDEN ROMANCE",
+    "Some gardens grow more than vegetables."
+  ],
+  [
+    3,
+    8,
+    "01 / A QUESTIONABLE BEGINNING",
+    "Plant a little courage.",
+    "Start with a Blood Turnip. Try not to ask why it has a pulse."
+  ],
+  [
+    8,
+    11,
+    "01 / EIGHT MINUTES LATER",
+    "Something is ready.",
+    "Growth time skipped. The garden has something for your next date."
+  ],
+  [
+    11,
+    18,
+    "02 / KEEP THE HEART",
+    "Harvest a Reckless Compliment.",
+    "Choose a card instead of seeds or resources. Romance starts in the soil."
+  ],
+  [
+    18,
+    24,
+    "02 / FROM THE GARDEN TO YOUR DECK",
+    "Something to bring to the picnic.",
+    "The card you grew joins your date deck. Mira is waiting."
+  ],
+  [
+    24,
+    32,
+    "03 / MIRA’S CEMETERY PICNIC",
+    "A mostly clean blanket.",
+    "Get comfortable. Even the mold has made an effort."
+  ],
+  [
+    32,
+    38.5,
+    "04 / LET THE VEGETABLES DO THE FLIRTING",
+    "A compliment with consequences.",
+    "Reckless Compliment: +9 Affection, +4 Awkwardness. A little courage has a cost."
+  ],
+  [
+    38.5,
+    43.5,
+    "04 / A LITTLE CLOSER",
+    "Small talk. A homemade gift.",
+    "The affection grows. One more word might be enough."
+  ],
+  [
+    43.5,
+    47,
+    "04 / GIVE IT A MOMENT",
+    "Take a breath. Start another turn.",
+    "A fresh hand, one less turn of patience. Small Talk closes the gap."
+  ],
+  [
+    47,
+    53,
+    "05 / THE GOOD KIND OF DAMP",
+    "The picnic went well.",
+    "Let Mira have the last word."
+  ],
+  [
+    53,
+    57,
+    "05 / A BOND TAKES ROOT",
+    "A date won. A new seed to plant.",
+    "27 / 25 Affection. Mira: Bond. The garden gets another beginning."
+  ],
+  [
+    57,
+    60,
+    "7ANTS / GAMEPLAY",
+    "ROT GARDEN ROMANCE",
+    "Plant something. See what grows."
+  ]
+]
