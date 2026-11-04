@@ -310,27 +310,27 @@ window.PROJECTS = [
       "Watch the machine fight while energy and heat interact.",
       "Survive the wave and reshape the build for the next threat."
     ],
-    "note": "Two levels, a draft loop, mutations and multiple module types exist. The player builds rather than aiming or shooting directly.",
+    "note": "A draft loop, mutations, relics and multiple module types exist. The player builds rather than aiming or shooting directly. The showcase stages six builds and enemy waves in an isolated copy; the original project and its combat rules are unchanged.",
     "images": [
       {
-        "src": "assets/murderbox/01.jpg",
-        "caption": "Place the starting cannon and battery modules on the 4x4 machine."
+        "src": "assets/murderbox/01-adjacency.jpg",
+        "caption": "The native cannon tooltip shows 24.3 damage per salvo from two adjacent Splitters; editorial text explains the stacking bonus."
       },
       {
-        "src": "assets/murderbox/02.jpg",
-        "caption": "Real wave-one enemies approach while the autonomous cannons fire."
+        "src": "assets/murderbox/02-defenses.jpg",
+        "caption": "A Repair Drone heals adjacent armor while a Shield Emitter protects the lower row from Spitter shots."
       },
       {
-        "src": "assets/murderbox/03.jpg",
-        "caption": "The machine continues fighting using its real energy/heat simulation."
+        "src": "assets/murderbox/03-vent.jpg",
+        "caption": "The heat-heavy build triggers a native emergency vent: a blast hits every enemy and temporarily disables a module."
       }
     ],
     "video": {
-      "src": "assets/murderbox/film.mp4",
+      "src": "assets/murderbox/film-modules.mp4",
       "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "16 SEC",
-      "note": "Captured from a running build with scripted inputs or native bots. Silent development footage."
+      "label": "Modules & synergies showcase",
+      "duration": "1:01",
+      "note": "All three weapons and 14 module types: stacking adjacent Splitters, Focuser/Gearbox/Reactor bonuses, Echo Chamber repeat fire, armor repairs, shield blocks, Demon Reactor damage, vent blasts and cooling. Includes a native hover tooltip and editorial explanations. Staged builds and enemy waves; native combat rules, outcomes and sound effects."
     }
   },
   {
