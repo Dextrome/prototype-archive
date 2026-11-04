@@ -386,23 +386,23 @@ window.PROJECTS = [
       "Combine powers and terrain destruction to eliminate rivals.",
       "Score rounds, reach the match result and rematch."
     ],
-    "note": "The project lives in the Bopl folder. Local play, online host/join, teams and sandbox are implemented. The arsenal film uses controlled native gameplay setups; it does not test network play.",
+    "note": "The project lives in the Bopl folder. Local play, online host/join, teams and sandbox are implemented. The film combines controlled weapon demonstrations with native four-player bot matches; it does not test network play.",
     "images": [
       {
-        "src": "assets/squabblobs/01-weapons.jpg",
-        "caption": "The guided missile forks into three warheads when released."
+        "src": "assets/squabblobs/01-four-player.jpg",
+        "caption": "Four native CPU players exchange attacks in Snowy Arena; this free-for-all runs through ordinary bot inputs and game rules."
       },
       {
-        "src": "assets/squabblobs/02-draft.jpg",
-        "caption": "The native draft picks a bow, sticky bomb and guided missile; editorial labels follow the real selections."
+        "src": "assets/squabblobs/02-weapons.jpg",
+        "caption": "The guided missile splits into three warheads in the faster nine-power montage."
       }
     ],
     "video": {
-      "src": "assets/squabblobs/film-arsenal.mp4",
+      "src": "assets/squabblobs/film-four-player.mp4",
       "kind": "gameplay",
-      "label": "Arsenal showcase",
-      "duration": "50 SEC",
-      "note": "Three native drafts select nine weapons and powers, followed by aimed uses, hits, size changes, terrain damage and a gravity-well collapse. Staged starts and scripted controller inputs; native game rules and sound effects. The boulder clip plays at 0.75× speed."
+      "label": "Arsenal & four-player gameplay",
+      "duration": "44 SEC",
+      "note": "A tighter 27-second montage keeps all nine weapon/power demonstrations, followed by 16 seconds of four-player free-for-all across Snowy Arena, Volcano and Classic Arena. The finale uses the game’s native bots: real movement, attacks, terrain damage, eliminations and round wins. Staged demo starts, closer camera framing and native sound effects; draft picks are accelerated."
     }
   },
   {

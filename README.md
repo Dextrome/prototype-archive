@@ -31,6 +31,6 @@ Goblin Ballistics has a new 20-second gameplay edit with independent, ball-aware
 
 Sobriety Kills now has a 46-second combinations showcase covering all seven slice substances, four contrasting combat setups, a native merge, and cardiac and respiratory overdose endings. Later-wave stashes are staged; game rules and death outcomes remain native. Overdose sequences are slowed for readability.
 
-Squabblobs now has a 50-second arsenal showcase: three native drafts select nine weapons and powers, followed by aimed demonstrations with native hits, size changes, terrain damage, round wins and a gravity-well collapse. Starting positions and inputs are staged; game rules resolve the outcomes. Native procedural sound effects are retained, and the boulder clip plays at 0.75× speed.
+Squabblobs has a faster 44-second trailer: 27 seconds of nine weapon/power demonstrations, then 16 seconds of four-player free-for-all across three stages. The finale uses unchanged native bots and normal spawn points, with selected loadouts and closer camera framing. Gameplay runs at normal speed; draft picks are accelerated and forward cuts remove downtime. Native procedural sound effects are retained.
 
 Murderbox has a 61-second modules and synergies showcase covering all three weapons and 14 module types. Native adjacency bonuses, a real hover tooltip, repeat shots, repairs, shields, overheating, vent blasts and cooling are explained on screen. Builds and enemy queues are staged in an isolated copy; the game code is unchanged and native procedural sound effects are retained.
