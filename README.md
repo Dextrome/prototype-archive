@@ -25,3 +25,5 @@ Gurk has an extended 1:56 feature trailer with an original score and game foley.
 ShpinkyDinky’s 27-second engineered-kills showcase uses four scripted scenarios and native game audio. Each one demonstrates a verified interaction and outcome rather than random bot movement.
 
 Dungeon Janitor now features the original 59-second DungeonJanitorV5 factory film, including trap reset, survivor pursuit, trapping and disposal. The film is preserved intact and labeled as a staged concept showcase.
+
+BlorpBrawl now features a 19-second trailer and four stills captured from the current Unreal graybox. Scripted local player inputs demonstrate native movement, hammer crush, Big Burp launch/recovery and a ring-out win. Selected impacts are slowed; the film is silent.
