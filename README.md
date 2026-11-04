@@ -24,7 +24,7 @@ Gurk has an extended 1:56 feature trailer with an original score and game foley.
 
 ShpinkyDinky’s 27-second engineered-kills showcase uses four scripted scenarios and native game audio. Each one demonstrates a verified interaction and outcome rather than random bot movement.
 
-Dungeon Janitor now features the original 59-second DungeonJanitorV5 factory film, including trap reset, survivor pursuit, trapping and disposal. The film is preserved intact and labeled as a staged concept showcase.
+Goblin Janitor now features the original 59-second DungeonJanitorV5 factory film, including trap reset, survivor pursuit, trapping and disposal. The film is preserved intact and labeled as a staged concept showcase.
 
 
 Goblin Ballistics has a new 20-second gameplay edit with independent, ball-aware flipper taps. Four left taps and two right taps replace constant simultaneous flipping; native physics and scoring are unchanged. The trailer uses two excerpts from one run and is silent.
@@ -36,3 +36,5 @@ Squabblobs has a faster 44-second trailer: 27 seconds of nine weapon/power demon
 Murderbox has a 61-second modules and synergies showcase covering all three weapons and 14 module types. Native adjacency bonuses, a real hover tooltip, repeat shots, repairs, shields, overheating, vent blasts and cooling are explained on screen. Builds and enemy queues are staged in an isolated copy; the game code is unchanged and native procedural sound effects are retained.
 
 Mazacre TD has a 1:17 run-progression trailer: nine waves grow a 37-cell route into a 190-cell maze with checkpoint-group separation, a shared choke, Piledriver specialization, damage/speed upgrades, supply and all four research categories. Native bot maze plans and curated purchases are replayed through real UI commands with earned minerals. Combat runs at the game’s visible 4× speed; brief planning shots are held for explanation. Native sound effects are retained.
+
+The archive uses a dark theme throughout, with bright text and gold/sage accents. Palette variables live in `docs/style.css`; the curated project order is the array order in `docs/catalog.js`.

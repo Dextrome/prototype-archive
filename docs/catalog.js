@@ -7,7 +7,7 @@ window.PROJECTS = [
     "players": "Solo",
     "stage": "Playable prototype",
     "pitch": "The heroes had their adventure. You have a mop.",
-    "description": "Step into a goblin janitor’s boots after a dungeon raid. Scrub blood and slime, haul monsters to recycling and dispose of heroes before the next party arrives. Between shifts, return to your lair to spend your wages on better tools and useful gear.",
+    "description": "Gurk (Goblin Janitor 3D) puts you in a goblin janitor’s boots after a dungeon raid. Scrub blood and slime, haul monsters to recycling and dispose of heroes before the next party arrives. Between shifts, return to your lair to spend your wages on better tools and useful gear.",
     "loop": [
       "Choose a dungeon job from the lair.",
       "Scrub, rinse, haul and recycle the mess.",
@@ -38,118 +38,8 @@ window.PROJECTS = [
     }
   },
   {
-    "id": "tiny-convoy",
-    "title": "Tiny Convoy",
-    "category": "Concept studies",
-    "genre": "Driving / survival",
-    "players": "Solo concept",
-    "stage": "Concept study",
-    "pitch": "Take everything. Regret it later.",
-    "description": "A little utility truck tows everything you own through a dangerous desert. Every trailer is useful, and every extra axle makes the convoy harder to control. The decisive moment is knowing when to abandon something valuable to save the rest.",
-    "loop": [
-      "Drive a small truck along a hostile route.",
-      "Attach useful salvage and extend the trailer chain.",
-      "Manage the weight, swing and danger you created.",
-      "Cut cargo loose when survival matters more than greed."
-    ],
-    "note": "A scripted concept demonstration. The film explores the intended driving and cargo loop; it is not evidence of a finished survival game.",
-    "images": [
-      {
-        "src": "assets/tiny-convoy/01.jpg",
-        "caption": "Trailer weight turns a useful convoy into a dangerous chain."
-      },
-      {
-        "src": "assets/tiny-convoy/02.jpg",
-        "caption": "The canyon-edge consequence of taking too much."
-      }
-    ],
-    "video": {
-      "src": "assets/tiny-convoy/film.mp4",
-      "kind": "staged",
-      "label": "Staged concept film",
-      "duration": "30 SEC",
-      "note": "Original GodotPrototypeFactory concept film. Interactions, outcomes and progression are staged to communicate the intended game."
-    }
-  },
-  {
-    "id": "the-ossuary",
-    "title": "The Ossuary",
-    "category": "Concept studies",
-    "genre": "Creature building / management",
-    "players": "Solo concept",
-    "stage": "Concept study",
-    "pitch": "Build the worker. Bury the mistakes.",
-    "description": "Run a forbidden corpse workshop. Graft valuable parts onto an undead investment, send it into dangerous work, then decide which damaged pieces are worth salvaging. Every rebuild is meant to give the creature a little more history.",
-    "loop": [
-      "Inspect the body and choose useful parts.",
-      "Graft a creature for a dangerous assignment.",
-      "Send it out and see what comes back.",
-      "Salvage, repair and invest in the next creation."
-    ],
-    "note": "Also known as Corpse Workshop. A staged concept film with scripted combat, rewards and salvage choices.",
-    "images": [
-      {
-        "src": "assets/the-ossuary/01.jpg",
-        "caption": "Harrow on the workbench, ready for another questionable graft."
-      },
-      {
-        "src": "assets/the-ossuary/02.jpg",
-        "caption": "Salvage and rebuilding complete the concept loop."
-      }
-    ],
-    "video": {
-      "src": "assets/the-ossuary/film.mp4",
-      "kind": "staged",
-      "label": "Staged concept film",
-      "duration": "28 SEC",
-      "note": "Original GodotPrototypeFactory concept film. Interactions, outcomes and progression are staged to communicate the intended game."
-    }
-  },
-  {
-    "id": "rot-garden-romance",
-    "title": "Rot Garden Romance",
-    "category": "Strategy",
-    "genre": "Farming / dating / deckbuilding",
-    "players": "Solo",
-    "stage": "Playable prototype",
-    "pitch": "Grow something you probably shouldn’t fall in love with.",
-    "description": "An opinionated cursed garden feeds a card-based dating game. Plant strange crops, choose their harvest rewards and build decks for three very different romance routes. Residents change the farm, while real-time growth keeps the garden moving between visits.",
-    "loop": [
-      "Plant and tend crops while they grow.",
-      "Choose cards, seeds or resources at harvest.",
-      "Build a deck and face a tactical date encounter.",
-      "Deepen relationships, welcome residents and reach an ending."
-    ],
-    "note": "Three romance routes and a shared finale exist. The garden grows in real time; audiovisual polish remains in development.",
-    "images": [
-      {
-        "src": "assets/rot-garden-romance/03.jpg",
-        "caption": "Mira’s real Cemetery Picnic encounter and starter hand."
-      },
-      {
-        "src": "assets/rot-garden-romance/01.jpg",
-        "caption": "Three actual crop types planted in the farm."
-      },
-      {
-        "src": "assets/rot-garden-romance/02.jpg",
-        "caption": "Harvest Shame Beet and choose a real reward."
-      },
-      {
-        "src": "assets/rot-garden-romance/04.jpg",
-        "caption": "A Small Talk card changes the real affection meter."
-      }
-    ],
-    "video": {
-      "src": "assets/rot-garden-romance/film.mp4",
-      "kind": "staged",
-      "label": "Staged concept film",
-      "duration": "19 SEC",
-      "note": "Staged in-engine showcase: crop growth is accelerated and introductory dialogue skipped; planting, harvest rewards and date card effects use real rules. Silent footage."
-    }
-  },
-  {
     "id": "dungeon-janitor",
-    "title": "Dungeon Janitor",
+    "title": "Goblin Janitor",
     "category": "Simulation",
     "genre": "Top-down cleaning",
     "players": "Solo",
@@ -224,78 +114,6 @@ window.PROJECTS = [
     }
   },
   {
-    "id": "mazacre-td",
-    "title": "Mazacre TD",
-    "category": "Strategy",
-    "genre": "Mazing tower defense",
-    "players": "Solo",
-    "stage": "Playable prototype",
-    "pitch": "Build the route. Kill them again.",
-    "description": "Towers and blockers shape a maze through ordered checkpoints. Creeps revive where they die and keep walking, turning route length and repeated kills into the heart of the economy. Research and tower specializations expand the options.",
-    "loop": [
-      "Shape a legal maze around checkpoints and terrain.",
-      "Place and specialize towers along the route.",
-      "Earn score and lives from repeated creep kills.",
-      "Reinvest wave income in the maze, upgrades and research."
-    ],
-    "note": "Working title for the EntropyRemake project. The playable scope is solo, with six tutorials and local ranked seeds. The progression film uses the Pocket practice seed, native bot maze plans and curated purchases; the original project and game rules are unchanged.",
-    "images": [
-      {
-        "src": "assets/mazacre-td/01-checkpoint-groups.jpg",
-        "caption": "Editorial colors identify two checkpoint groups and the shared choke that the required route crosses four times."
-      },
-      {
-        "src": "assets/mazacre-td/02-developed-maze.jpg",
-        "caption": "Wave nine runs through the expanded maze with a specialized Piledriver, local upgrades, depots, blockers and all four research categories purchased."
-      }
-    ],
-    "video": {
-      "src": "assets/mazacre-td/film-progression.mp4",
-      "kind": "gameplay",
-      "label": "Run progression showcase",
-      "duration": "1:17",
-      "note": "A nine-wave solo run grows the maze from 37 to 190 route cells. Explains checkpoint groups and a shared choke, Piledriver specialization, local damage/speed upgrades, supply depots, blockers and all four research choices. Native UI purchases spend earned minerals. Bot-planned maze with curated upgrades; native 4× combat, short held planning shots and game sound effects."
-    }
-  },
-  {
-    "id": "ant-delve",
-    "title": "Ant Delve",
-    "category": "Strategy",
-    "genre": "Hex strategy / competition",
-    "players": "2–4 colonies",
-    "stage": "Playable prototype",
-    "pitch": "Dig deeper. Bring it home before they do.",
-    "description": "Competing ant colonies carve shared tunnels through a hex-based cross-section of the earth. Place tunnel tiles, move a team of ants, mine valuable resources and return them to the nest while rivals and predators complicate the route.",
-    "loop": [
-      "Choose a colony and starting camp.",
-      "Extend the tunnel network with a hex tile.",
-      "Move ants to mine, fight, trade and carry resources home.",
-      "Bank the best score before the round limit."
-    ],
-    "note": "Hotseat, AI and online relay play are implemented. Balance and onboarding remain active areas of development.",
-    "images": [
-      {
-        "src": "assets/ant-delve/01.jpg",
-        "caption": "Three competing colonies dig into a shared underground hex board."
-      },
-      {
-        "src": "assets/ant-delve/02.jpg",
-        "caption": "Close view of ants, tunnels and resource/creature encounters."
-      },
-      {
-        "src": "assets/ant-delve/03.jpg",
-        "caption": "The turn-based board after additional AI colony actions."
-      }
-    ],
-    "video": {
-      "src": "assets/ant-delve/film.mp4",
-      "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "18 SEC",
-      "note": "Captured from a running build with scripted inputs or native bots. Silent development footage. Ant Delve simulation runs at 3× speed."
-    }
-  },
-  {
     "id": "murderbox",
     "title": "Murderbox",
     "category": "Strategy",
@@ -334,41 +152,75 @@ window.PROJECTS = [
     }
   },
   {
-    "id": "hellgrinder",
-    "title": "Hellgrinder",
-    "category": "Simulation",
-    "genre": "Roguelite management",
+    "id": "mazacre-td",
+    "title": "Mazacre TD",
+    "category": "Strategy",
+    "genre": "Mazing tower defense",
     "players": "Solo",
     "stage": "Playable prototype",
-    "pitch": "Hell has quotas. You have a debt.",
-    "description": "Operate an infernal soul-processing machine under an increasingly unpleasant contract. Choose starter equipment, accept clauses, juggle heat and pressure, and decide whether an extra payout is worth another chance of catastrophe.",
+    "pitch": "Build the route. Kill them again.",
+    "description": "Towers and blockers shape a maze through ordered checkpoints. Creeps revive where they die and keep walking, turning route length and repeated kills into the heart of the economy. Research and tower specializations expand the options.",
     "loop": [
-      "Procure a starting machine within the budget.",
-      "Choose a contract and operating directive.",
-      "Run the shift, manage meters and respond to incidents.",
-      "Take the payout, repay debt and prepare for the next shift."
+      "Shape a legal maze around checkpoints and terrain.",
+      "Place and specialize towers along the route.",
+      "Earn score and lives from repeated creep kills.",
+      "Reinvest wave income in the maze, upgrades and research."
     ],
-    "note": "A five-shift standard prototype and a two-shift employee orientation are playable. The larger management game remains a work in progress.",
+    "note": "Working title for the EntropyRemake project. The playable scope is solo, with six tutorials and local ranked seeds. The progression film uses the Pocket practice seed, native bot maze plans and curated purchases; the original project and game rules are unchanged.",
     "images": [
       {
-        "src": "assets/hellgrinder/01.jpg",
-        "caption": "The infernal machine starts processing souls."
+        "src": "assets/mazacre-td/01-checkpoint-groups.jpg",
+        "caption": "Editorial colors identify two checkpoint groups and the shared choke that the required route crosses four times."
       },
       {
-        "src": "assets/hellgrinder/02.jpg",
-        "caption": "A staged critical-meter beat shows the meltdown warning."
-      },
-      {
-        "src": "assets/hellgrinder/03.jpg",
-        "caption": "The real Vent action brings heat back below critical while the shift continues."
+        "src": "assets/mazacre-td/02-developed-maze.jpg",
+        "caption": "Wave nine runs through the expanded maze with a specialized Piledriver, local upgrades, depots, blockers and all four research categories purchased."
       }
     ],
     "video": {
-      "src": "assets/hellgrinder/film.mp4",
+      "src": "assets/mazacre-td/film-progression.mp4",
+      "kind": "gameplay",
+      "label": "Run progression showcase",
+      "duration": "1:17",
+      "note": "A nine-wave solo run grows the maze from 37 to 190 route cells. Explains checkpoint groups and a shared choke, Piledriver specialization, local damage/speed upgrades, supply depots, blockers and all four research choices. Native UI purchases spend earned minerals. Bot-planned maze with curated upgrades; native 4× combat, short held planning shots and game sound effects."
+    }
+  },
+  {
+    "id": "tower-with-legs",
+    "title": "Tower With Legs",
+    "category": "Concept studies",
+    "genre": "Walking defense / action",
+    "players": "Solo concept",
+    "stage": "Concept study",
+    "pitch": "The tower is the build.",
+    "description": "Instead of placing a field of defenses, pilot one walking tower. Position the machine, rotate useful weapons into the threat and bolt on new hardware between waves. More firepower means more decisions about heat and facing.",
+    "loop": [
+      "Walk and rotate the defensive machine.",
+      "Bring the right weapon face toward the wave.",
+      "Stomp close threats and manage heat.",
+      "Install a visible upgrade and face the next attack."
+    ],
+    "note": "A staged concept demonstration with scripted combat and upgrade beats. The prototype tests the fantasy of being the tower.",
+    "images": [
+      {
+        "src": "assets/tower-with-legs/01.jpg",
+        "caption": "The walking tower after a visible weapon upgrade."
+      },
+      {
+        "src": "assets/tower-with-legs/02.jpg",
+        "caption": "A new pressure point in the walking-defense concept."
+      },
+      {
+        "src": "assets/tower-with-legs/03.jpg",
+        "caption": "A new pressure point in the walking-defense concept."
+      }
+    ],
+    "video": {
+      "src": "assets/tower-with-legs/film.mp4",
       "kind": "staged",
       "label": "Staged concept film",
-      "duration": "16 SEC",
-      "note": "Staged in-engine showcase: critical meters are set for the scene, then the real Vent action rescues the machine. Silent footage."
+      "duration": "29 SEC",
+      "note": "Original GodotPrototypeFactory concept film. Interactions, outcomes and progression are staged to communicate the intended game."
     }
   },
   {
@@ -403,6 +255,40 @@ window.PROJECTS = [
       "label": "Arsenal & four-player gameplay",
       "duration": "44 SEC",
       "note": "A tighter 27-second montage keeps all nine weapon/power demonstrations, followed by 16 seconds of four-player free-for-all across Snowy Arena, Volcano and Classic Arena. The finale uses the game’s native bots: real movement, attacks, terrain damage, eliminations and round wins. Staged demo starts, closer camera framing and native sound effects; draft picks are accelerated."
+    }
+  },
+  {
+    "id": "tiny-convoy",
+    "title": "Tiny Convoy",
+    "category": "Concept studies",
+    "genre": "Driving / survival",
+    "players": "Solo concept",
+    "stage": "Concept study",
+    "pitch": "Take everything. Regret it later.",
+    "description": "A little utility truck tows everything you own through a dangerous desert. Every trailer is useful, and every extra axle makes the convoy harder to control. The decisive moment is knowing when to abandon something valuable to save the rest.",
+    "loop": [
+      "Drive a small truck along a hostile route.",
+      "Attach useful salvage and extend the trailer chain.",
+      "Manage the weight, swing and danger you created.",
+      "Cut cargo loose when survival matters more than greed."
+    ],
+    "note": "A scripted concept demonstration. The film explores the intended driving and cargo loop; it is not evidence of a finished survival game.",
+    "images": [
+      {
+        "src": "assets/tiny-convoy/01.jpg",
+        "caption": "Trailer weight turns a useful convoy into a dangerous chain."
+      },
+      {
+        "src": "assets/tiny-convoy/02.jpg",
+        "caption": "The canyon-edge consequence of taking too much."
+      }
+    ],
+    "video": {
+      "src": "assets/tiny-convoy/film.mp4",
+      "kind": "staged",
+      "label": "Staged concept film",
+      "duration": "30 SEC",
+      "note": "Original GodotPrototypeFactory concept film. Interactions, outcomes and progression are staged to communicate the intended game."
     }
   },
   {
@@ -444,6 +330,124 @@ window.PROJECTS = [
     }
   },
   {
+    "id": "ant-delve",
+    "title": "Ant Delve",
+    "category": "Strategy",
+    "genre": "Hex strategy / competition",
+    "players": "2–4 colonies",
+    "stage": "Playable prototype",
+    "pitch": "Dig deeper. Bring it home before they do.",
+    "description": "Competing ant colonies carve shared tunnels through a hex-based cross-section of the earth. Place tunnel tiles, move a team of ants, mine valuable resources and return them to the nest while rivals and predators complicate the route.",
+    "loop": [
+      "Choose a colony and starting camp.",
+      "Extend the tunnel network with a hex tile.",
+      "Move ants to mine, fight, trade and carry resources home.",
+      "Bank the best score before the round limit."
+    ],
+    "note": "Hotseat, AI and online relay play are implemented. Balance and onboarding remain active areas of development.",
+    "images": [
+      {
+        "src": "assets/ant-delve/01.jpg",
+        "caption": "Three competing colonies dig into a shared underground hex board."
+      },
+      {
+        "src": "assets/ant-delve/02.jpg",
+        "caption": "Close view of ants, tunnels and resource/creature encounters."
+      },
+      {
+        "src": "assets/ant-delve/03.jpg",
+        "caption": "The turn-based board after additional AI colony actions."
+      }
+    ],
+    "video": {
+      "src": "assets/ant-delve/film.mp4",
+      "kind": "gameplay",
+      "label": "Gameplay trailer",
+      "duration": "18 SEC",
+      "note": "Captured from a running build with scripted inputs or native bots. Silent development footage. Ant Delve simulation runs at 3× speed."
+    }
+  },
+  {
+    "id": "hellgrinder",
+    "title": "Hellgrinder",
+    "category": "Simulation",
+    "genre": "Roguelite management",
+    "players": "Solo",
+    "stage": "Playable prototype",
+    "pitch": "Hell has quotas. You have a debt.",
+    "description": "Operate an infernal soul-processing machine under an increasingly unpleasant contract. Choose starter equipment, accept clauses, juggle heat and pressure, and decide whether an extra payout is worth another chance of catastrophe.",
+    "loop": [
+      "Procure a starting machine within the budget.",
+      "Choose a contract and operating directive.",
+      "Run the shift, manage meters and respond to incidents.",
+      "Take the payout, repay debt and prepare for the next shift."
+    ],
+    "note": "A five-shift standard prototype and a two-shift employee orientation are playable. The larger management game remains a work in progress.",
+    "images": [
+      {
+        "src": "assets/hellgrinder/01.jpg",
+        "caption": "The infernal machine starts processing souls."
+      },
+      {
+        "src": "assets/hellgrinder/02.jpg",
+        "caption": "A staged critical-meter beat shows the meltdown warning."
+      },
+      {
+        "src": "assets/hellgrinder/03.jpg",
+        "caption": "The real Vent action brings heat back below critical while the shift continues."
+      }
+    ],
+    "video": {
+      "src": "assets/hellgrinder/film.mp4",
+      "kind": "staged",
+      "label": "Staged concept film",
+      "duration": "16 SEC",
+      "note": "Staged in-engine showcase: critical meters are set for the scene, then the real Vent action rescues the machine. Silent footage."
+    }
+  },
+  {
+    "id": "rot-garden-romance",
+    "title": "Rot Garden Romance",
+    "category": "Strategy",
+    "genre": "Farming / dating / deckbuilding",
+    "players": "Solo",
+    "stage": "Playable prototype",
+    "pitch": "Grow something you probably shouldn’t fall in love with.",
+    "description": "An opinionated cursed garden feeds a card-based dating game. Plant strange crops, choose their harvest rewards and build decks for three very different romance routes. Residents change the farm, while real-time growth keeps the garden moving between visits.",
+    "loop": [
+      "Plant and tend crops while they grow.",
+      "Choose cards, seeds or resources at harvest.",
+      "Build a deck and face a tactical date encounter.",
+      "Deepen relationships, welcome residents and reach an ending."
+    ],
+    "note": "Three romance routes and a shared finale exist. The garden grows in real time; audiovisual polish remains in development.",
+    "images": [
+      {
+        "src": "assets/rot-garden-romance/03.jpg",
+        "caption": "Mira’s real Cemetery Picnic encounter and starter hand."
+      },
+      {
+        "src": "assets/rot-garden-romance/01.jpg",
+        "caption": "Three actual crop types planted in the farm."
+      },
+      {
+        "src": "assets/rot-garden-romance/02.jpg",
+        "caption": "Harvest Shame Beet and choose a real reward."
+      },
+      {
+        "src": "assets/rot-garden-romance/04.jpg",
+        "caption": "A Small Talk card changes the real affection meter."
+      }
+    ],
+    "video": {
+      "src": "assets/rot-garden-romance/film.mp4",
+      "kind": "staged",
+      "label": "Staged concept film",
+      "duration": "19 SEC",
+      "note": "Staged in-engine showcase: crop growth is accelerated and introductory dialogue skipped; planting, harvest rewards and date card effects use real rules. Silent footage."
+    }
+  },
+  {
     "id": "shpinky-dinky",
     "title": "ShpinkyDinky",
     "category": "Action & physics",
@@ -479,6 +483,44 @@ window.PROJECTS = [
       "label": "Engineered kills showcase",
       "duration": "27 SEC",
       "note": "Four scripted duels show each setup and payoff. Real game physics and damage, staged starting positions, simplified device labels and edited timing. Includes native game audio."
+    }
+  },
+  {
+    "id": "brick-by-brick",
+    "title": "Brick by Brick",
+    "category": "Concept studies",
+    "genre": "Tactile sorting / building",
+    "players": "Solo concept",
+    "stage": "Concept study",
+    "pitch": "The piece you need is in there somewhere.",
+    "description": "Dig through a sprawling mixed pile of construction bricks, sort useful parts and turn a mess into a finished little build. Rare finds and the satisfaction of uncovering one missing piece are the center of the concept.",
+    "loop": [
+      "Rummage through a mixed pile.",
+      "Inspect, move and sort useful pieces.",
+      "Find the parts needed for a small order.",
+      "Complete the build and return to the pile."
+    ],
+    "note": "A staged concept demonstration. The pile uses authored depth and motion rather than a full physical brick simulation.",
+    "images": [
+      {
+        "src": "assets/brick-by-brick/01.jpg",
+        "caption": "A mixed pile of parts and the build waiting to be completed."
+      },
+      {
+        "src": "assets/brick-by-brick/02.jpg",
+        "caption": "A different readable moment from the staged sorting sequence."
+      },
+      {
+        "src": "assets/brick-by-brick/03.jpg",
+        "caption": "A different readable moment from the staged sorting sequence."
+      }
+    ],
+    "video": {
+      "src": "assets/brick-by-brick/film.mp4",
+      "kind": "staged",
+      "label": "Staged concept film",
+      "duration": "28 SEC",
+      "note": "Original GodotPrototypeFactory concept film. Interactions, outcomes and progression are staged to communicate the intended game."
     }
   },
   {
@@ -558,44 +600,6 @@ window.PROJECTS = [
     }
   },
   {
-    "id": "brick-by-brick",
-    "title": "Brick by Brick",
-    "category": "Concept studies",
-    "genre": "Tactile sorting / building",
-    "players": "Solo concept",
-    "stage": "Concept study",
-    "pitch": "The piece you need is in there somewhere.",
-    "description": "Dig through a sprawling mixed pile of construction bricks, sort useful parts and turn a mess into a finished little build. Rare finds and the satisfaction of uncovering one missing piece are the center of the concept.",
-    "loop": [
-      "Rummage through a mixed pile.",
-      "Inspect, move and sort useful pieces.",
-      "Find the parts needed for a small order.",
-      "Complete the build and return to the pile."
-    ],
-    "note": "A staged concept demonstration. The pile uses authored depth and motion rather than a full physical brick simulation.",
-    "images": [
-      {
-        "src": "assets/brick-by-brick/01.jpg",
-        "caption": "A mixed pile of parts and the build waiting to be completed."
-      },
-      {
-        "src": "assets/brick-by-brick/02.jpg",
-        "caption": "A different readable moment from the staged sorting sequence."
-      },
-      {
-        "src": "assets/brick-by-brick/03.jpg",
-        "caption": "A different readable moment from the staged sorting sequence."
-      }
-    ],
-    "video": {
-      "src": "assets/brick-by-brick/film.mp4",
-      "kind": "staged",
-      "label": "Staged concept film",
-      "duration": "28 SEC",
-      "note": "Original GodotPrototypeFactory concept film. Interactions, outcomes and progression are staged to communicate the intended game."
-    }
-  },
-  {
     "id": "corpse-city",
     "title": "Corpse City",
     "category": "Concept studies",
@@ -634,40 +638,36 @@ window.PROJECTS = [
     }
   },
   {
-    "id": "tower-with-legs",
-    "title": "Tower With Legs",
+    "id": "the-ossuary",
+    "title": "The Ossuary",
     "category": "Concept studies",
-    "genre": "Walking defense / action",
+    "genre": "Creature building / management",
     "players": "Solo concept",
     "stage": "Concept study",
-    "pitch": "The tower is the build.",
-    "description": "Instead of placing a field of defenses, pilot one walking tower. Position the machine, rotate useful weapons into the threat and bolt on new hardware between waves. More firepower means more decisions about heat and facing.",
+    "pitch": "Build the worker. Bury the mistakes.",
+    "description": "Run a forbidden corpse workshop. Graft valuable parts onto an undead investment, send it into dangerous work, then decide which damaged pieces are worth salvaging. Every rebuild is meant to give the creature a little more history.",
     "loop": [
-      "Walk and rotate the defensive machine.",
-      "Bring the right weapon face toward the wave.",
-      "Stomp close threats and manage heat.",
-      "Install a visible upgrade and face the next attack."
+      "Inspect the body and choose useful parts.",
+      "Graft a creature for a dangerous assignment.",
+      "Send it out and see what comes back.",
+      "Salvage, repair and invest in the next creation."
     ],
-    "note": "A staged concept demonstration with scripted combat and upgrade beats. The prototype tests the fantasy of being the tower.",
+    "note": "Also known as Corpse Workshop. A staged concept film with scripted combat, rewards and salvage choices.",
     "images": [
       {
-        "src": "assets/tower-with-legs/01.jpg",
-        "caption": "The walking tower after a visible weapon upgrade."
+        "src": "assets/the-ossuary/01.jpg",
+        "caption": "Harrow on the workbench, ready for another questionable graft."
       },
       {
-        "src": "assets/tower-with-legs/02.jpg",
-        "caption": "A new pressure point in the walking-defense concept."
-      },
-      {
-        "src": "assets/tower-with-legs/03.jpg",
-        "caption": "A new pressure point in the walking-defense concept."
+        "src": "assets/the-ossuary/02.jpg",
+        "caption": "Salvage and rebuilding complete the concept loop."
       }
     ],
     "video": {
-      "src": "assets/tower-with-legs/film.mp4",
+      "src": "assets/the-ossuary/film.mp4",
       "kind": "staged",
       "label": "Staged concept film",
-      "duration": "29 SEC",
+      "duration": "28 SEC",
       "note": "Original GodotPrototypeFactory concept film. Interactions, outcomes and progression are staged to communicate the intended game."
     }
   }
