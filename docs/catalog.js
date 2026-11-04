@@ -538,7 +538,7 @@ window.PROJECTS = [
       "Redirect attacks and force a rival into danger.",
       "Resolve the round, reset and try another setup."
     ],
-    "note": "A two-player arena-sabotage prototype. This showcase stages four readable interactions using the existing movement, device and damage systems.",
+    "note": "A two-player arena-sabotage prototype. This trailer stages three tactical encounters and a no-vent comparison in a simplified map, using the existing movement, device and damage systems.",
     "images": [
       {
         "src": "assets/shpinky-dinky/01-bank-shot.jpg",
@@ -554,11 +554,11 @@ window.PROJECTS = [
       }
     ],
     "video": {
-      "src": "assets/shpinky-dinky/film-engineered.mp4",
+      "src": "assets/shpinky-dinky/film-tactics.mp4",
       "kind": "gameplay",
-      "label": "Engineered kills showcase",
+      "label": "Tactics trailer",
       "duration": "27 SEC",
-      "note": "Four scripted duels show each setup and payoff. Real game physics and damage, staged starting positions, simplified device labels and edited timing. Includes native game audio."
+      "note": "Bank shots around cover, an attached bomb that follows a retreat, and a vent that turns a failed trap into a kill. Scripted inputs and staged geometry use native game rules; freezes, slow motion and overlays explain the outcomes. Original score and native sound effects."
     }
   }
 ];

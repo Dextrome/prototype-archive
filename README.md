@@ -22,7 +22,7 @@ The gallery contains rendered media, not the game source projects or models. Ref
 
 Gurk has an extended 1:56 feature trailer with an original score and game foley. Its real-renderer footage uses staged setups; the media notes describe the capture method.
 
-ShpinkyDinky’s 27-second engineered-kills showcase uses four scripted scenarios and native game audio. Each one demonstrates a verified interaction and outcome rather than random bot movement.
+ShpinkyDinky’s 27-second tactics trailer shows bank shots around cover, an attached bomb following a retreat, and a vent-trap comparison with and without the vent. Authored inputs and simplified geometry stage the encounters; native physics, damage and deaths resolve the outcomes. Brief freezes, slow motion and explanatory overlays accompany an original score and native game audio. The supplied ShpinkyDinky-Tactics-Trailer.mp4 is preserved unchanged.
 
 Goblin Janitor now features the original 59-second DungeonJanitorV5 factory film, including trap reset, survivor pursuit, trapping and disposal. The film is preserved intact and labeled as a staged concept showcase.
 
