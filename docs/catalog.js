@@ -88,29 +88,29 @@ window.PROJECTS = [
       "Buy an organism and place it beside the lane.",
       "Choose branching upgrades for its role.",
       "Strip enemy layers and answer special defenses.",
-      "Earn currency, adjust your build and survive the wave table."
+      "Survive waves, earn permanent XP and buy upgrades for future runs."
     ],
-    "note": "The current build uses upgrade paths, not the retired fusion design. Two maps and four buyable organisms form its playable roster.",
+    "note": "Two maps and four buyable organisms, each with three upgrade paths. Permanent XP upgrades carry into future runs. The showcase stages later-wave builds, funds and XP in an isolated copy; combat, tower purchases and upgrade rules are native.",
     "images": [
       {
-        "src": "assets/meldkin/01.jpg",
-        "caption": "Organisms defend the lane against layered enemies."
+        "src": "assets/meldkin/01-geode-build.jpg",
+        "caption": "Bloom, Mortarcap and Needleback combine their capabilities on Geode."
       },
       {
-        "src": "assets/meldkin/02.jpg",
-        "caption": "Inspect an organism and choose its authored growth path."
+        "src": "assets/meldkin/02-upgrade-paths.jpg",
+        "caption": "The native Needleback upgrade sheet: SPIKE reaches Ravine while LANCE stops at rung two."
       },
       {
-        "src": "assets/meldkin/03.jpg",
-        "caption": "Development combat capture showing the organic defenses and lane."
+        "src": "assets/meldkin/03-permanent-upgrades.jpg",
+        "caption": "The permanent Upgrades tree with Mortarcap unlocked and Quicken selected for purchase."
       }
     ],
     "video": {
-      "src": "assets/meldkin/film.mp4",
+      "src": "assets/meldkin/film-builds-and-progression.mp4",
       "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "14 SEC",
-      "note": "A running combat/render fixture highlights organism attacks. The film is a focused mechanic showcase rather than a full run."
+      "label": "Builds & progression showcase",
+      "duration": "1:07",
+      "note": "Three tower combinations on Interchange and Geode, a live tower panel, Crater and Ravine path purchases, and the permanent shop buying Seed gold I, Mortarcap and Quicken. Native gameplay with staged later-wave setups, funds and XP; explanatory captions and native procedural sound."
     }
   },
   {
