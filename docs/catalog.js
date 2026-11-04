@@ -159,10 +159,10 @@ window.PROJECTS = [
     "loop": [
       "Take a seeded dungeon-cleaning job.",
       "Scrub the floor and rinse the overloaded mop.",
-      "Sort bodies, fill the cart and deal with survivors.",
+      "Sort bodies, reset traps and lure waking heroes onto the spikes.",
       "Clock out for wages and permanent tool upgrades."
     ],
-    "note": "Standalone top-down game, distinct from Gurk’s first-person rewrite. Five job ratings unlock progressively.",
+    "note": "Standalone top-down game with five job ratings. The featured film is the factory’s authored V5 room study; screenshots show the standalone build.",
     "images": [
       {
         "src": "assets/dungeon-janitor/01.jpg",
@@ -178,11 +178,11 @@ window.PROJECTS = [
       }
     ],
     "video": {
-      "src": "assets/dungeon-janitor/film.mp4",
-      "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "29 SEC",
-      "note": "A short montage of actual command-driven jobs from the standalone game. Forward cuts compress a longer recording. Silent edit."
+      "src": "assets/dungeon-janitor/film-v5.mp4",
+      "kind": "staged",
+      "label": "V5 concept showcase",
+      "duration": "59 SEC",
+      "note": "Original DungeonJanitorV5 factory film, preserved intact. Shows trap reset, hero pursuit, trapping and disposal around 0:34–0:44, alongside cleaning, sorting and recycling. Scripted single-room showcase; silent."
     }
   },
   {
