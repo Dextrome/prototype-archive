@@ -537,24 +537,24 @@ window.PROJECTS = [
     "note": "The playable vertical slice includes draft, merge, activation and combat with a limited catalog. The larger roster and presentation remain in development.",
     "images": [
       {
-        "src": "assets/sobriety-kills/03.jpg",
-        "caption": "Live combat with the stick-figure protagonist and current overdose/composure HUD."
+        "src": "assets/sobriety-kills/02-combat.jpg",
+        "caption": "Mushrooms and Diphenhydramine alternate wrong-angle attacks and uncontrolled flailing."
       },
       {
-        "src": "assets/sobriety-kills/01.jpg",
-        "caption": "Choose a substance from the real opening draft."
+        "src": "assets/sobriety-kills/01-combinations.jpg",
+        "caption": "The real merge UI combines Cocaine and Mushrooms into one medium-risk cocktail."
       },
       {
-        "src": "assets/sobriety-kills/02.jpg",
-        "caption": "Inspect the selected substance and activation before combat."
+        "src": "assets/sobriety-kills/03-overdose.jpg",
+        "caption": "A fatal Cocaine–Heroin pairing fills the native OD meter and ends in cardiac arrest."
       }
     ],
     "video": {
-      "src": "assets/sobriety-kills/film.mp4",
+      "src": "assets/sobriety-kills/film-combinations.mp4",
       "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "15 SEC",
-      "note": "Captured from a running build with scripted inputs or native bots. Silent development footage."
+      "label": "Combo & overdose showcase",
+      "duration": "46 SEC",
+      "note": "Six combinations across all seven slice substances, mixed attack styles, enemy slowdown, a merge and two native overdose endings. Staged wave-four stashes; existing combat and OD rules. The overdose sequences are slowed for readability. Silent."
     }
   },
   {
