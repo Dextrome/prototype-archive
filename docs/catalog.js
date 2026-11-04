@@ -1,119 +1,5 @@
 window.PROJECTS = [
   {
-    "id": "gurk",
-    "title": "Gurk",
-    "category": "Simulation",
-    "genre": "Dungeon cleaning",
-    "players": "Solo",
-    "stage": "Playable prototype",
-    "pitch": "The heroes had their adventure. You have a mop.",
-    "description": "Gurk (Goblin Janitor 3D) puts you in a goblin janitor’s boots after a dungeon raid. Scrub blood and slime, haul monsters to recycling and dispose of heroes before the next party arrives. Between shifts, return to your lair to spend your wages on better tools and useful gear.",
-    "loop": [
-      "Choose a dungeon job from the lair.",
-      "Scrub, rinse, haul and recycle the mess.",
-      "Lure waking heroes onto traps and finish before the next party.",
-      "Clock out, collect wages and improve your equipment."
-    ],
-    "note": "First-person cleaning with career progression, job variants and a daily dungeon. Development footage; presentation may change.",
-    "images": [
-      {
-        "src": "assets/gurk/01.jpg",
-        "caption": "A torchlit dungeon waiting for its next cleaning shift."
-      },
-      {
-        "src": "assets/gurk/02.jpg",
-        "caption": "The real mop clears stains during a command-driven job."
-      },
-      {
-        "src": "assets/gurk/03.jpg",
-        "caption": "Explore the rooms and corridors from a janitor’s eye level."
-      }
-    ],
-    "video": {
-      "src": "assets/gurk/film-extended.mp4",
-      "kind": "gameplay",
-      "label": "Extended feature trailer",
-      "duration": "1:56",
-      "note": "Captured in the real Gurk renderer with staged starting states, scripted player inputs and edited timing. Shows existing game systems, not a continuous player run. Original score and edited game sound effects; no voiceover."
-    }
-  },
-  {
-    "id": "dungeon-janitor",
-    "title": "Goblin Janitor",
-    "category": "Simulation",
-    "genre": "Top-down cleaning",
-    "players": "Solo",
-    "stage": "Playable prototype",
-    "pitch": "A little goblin. A very unpleasant job.",
-    "description": "Play Grub, the dungeon owner’s overworked cleaner. Mop the floor, move bodies, push a wheelbarrow of monsters to recycling and drag heroes to disposal. Some of those heroes are only pretending to be dead.",
-    "loop": [
-      "Take a seeded dungeon-cleaning job.",
-      "Scrub the floor and rinse the overloaded mop.",
-      "Sort bodies, reset traps and lure waking heroes onto the spikes.",
-      "Clock out for wages and permanent tool upgrades."
-    ],
-    "note": "Standalone top-down game with five job ratings. The featured film is the factory’s authored V5 room study; screenshots show the standalone build.",
-    "images": [
-      {
-        "src": "assets/dungeon-janitor/01.jpg",
-        "caption": "A generated multi-room job with separate monster and hero disposal routes."
-      },
-      {
-        "src": "assets/dungeon-janitor/02.jpg",
-        "caption": "A waking survivor meets one of the dungeon’s traps."
-      },
-      {
-        "src": "assets/dungeon-janitor/03.jpg",
-        "caption": "Wheelbarrow transport through the dungeon’s connected spaces."
-      }
-    ],
-    "video": {
-      "src": "assets/dungeon-janitor/film-v5.mp4",
-      "kind": "staged",
-      "label": "V5 concept showcase",
-      "duration": "59 SEC",
-      "note": "Original DungeonJanitorV5 factory film, preserved intact. Shows trap reset, hero pursuit, trapping and disposal around 0:34–0:44, alongside cleaning, sorting and recycling. Scripted single-room showcase; silent."
-    }
-  },
-  {
-    "id": "meldkin",
-    "title": "Meldkin",
-    "category": "Strategy",
-    "genre": "Organism tower defense",
-    "players": "Solo",
-    "stage": "Playable prototype",
-    "pitch": "Grow a defense. Peel the enemy apart.",
-    "description": "Buy living defenses and grow them along authored upgrade paths. Enemies are ordered queues of bodies: remove the front layer and the next creature keeps moving. Placement and complementary capabilities matter as waves become denser.",
-    "loop": [
-      "Buy an organism and place it beside the lane.",
-      "Choose branching upgrades for its role.",
-      "Strip enemy layers and answer special defenses.",
-      "Survive waves, earn permanent XP and buy upgrades for future runs."
-    ],
-    "note": "Two maps and four buyable organisms, each with three upgrade paths. Permanent XP upgrades carry into future runs. The showcase stages later-wave builds, funds and XP in an isolated copy; combat, tower purchases and upgrade rules are native.",
-    "images": [
-      {
-        "src": "assets/meldkin/01-geode-build.jpg",
-        "caption": "Bloom, Mortarcap and Needleback combine their capabilities on Geode."
-      },
-      {
-        "src": "assets/meldkin/02-upgrade-paths.jpg",
-        "caption": "The native Needleback upgrade sheet: SPIKE reaches Ravine while LANCE stops at rung two."
-      },
-      {
-        "src": "assets/meldkin/03-permanent-upgrades.jpg",
-        "caption": "The permanent Upgrades tree with Mortarcap unlocked and Quicken selected for purchase."
-      }
-    ],
-    "video": {
-      "src": "assets/meldkin/film-builds-and-progression.mp4",
-      "kind": "gameplay",
-      "label": "Builds & progression showcase",
-      "duration": "1:07",
-      "note": "Three tower combinations on Interchange and Geode, a live tower panel, Crater and Ravine path purchases, and the permanent shop buying Seed gold I, Mortarcap and Quicken. Native gameplay with staged later-wave setups, funds and XP; explanatory captions and native procedural sound."
-    }
-  },
-  {
     "id": "murderbox",
     "title": "Murderbox",
     "category": "Strategy",
@@ -224,40 +110,6 @@ window.PROJECTS = [
     }
   },
   {
-    "id": "squabblobs",
-    "title": "Squabblobs",
-    "category": "Action & physics",
-    "genre": "Ability party fighter",
-    "players": "Local / online multiplayer",
-    "stage": "Playable prototype",
-    "pitch": "Tiny ants. Extremely unreasonable abilities.",
-    "description": "Draft a set of powers, then fight across destructible arenas as a flexible ant-blob. Movement, crawling, knockback and combinations of abilities turn short rounds into improvised physics problems. The last survivor takes the round.",
-    "loop": [
-      "Join a lobby and choose a match setup.",
-      "Draft a three-ability loadout.",
-      "Combine powers and terrain destruction to eliminate rivals.",
-      "Score rounds, reach the match result and rematch."
-    ],
-    "note": "The project lives in the Bopl folder. Local play, online host/join, teams and sandbox are implemented. The film combines controlled weapon demonstrations with native four-player bot matches; it does not test network play.",
-    "images": [
-      {
-        "src": "assets/squabblobs/01-four-player.jpg",
-        "caption": "Four native CPU players exchange attacks in Snowy Arena; this free-for-all runs through ordinary bot inputs and game rules."
-      },
-      {
-        "src": "assets/squabblobs/02-weapons.jpg",
-        "caption": "The guided missile splits into three warheads in the faster nine-power montage."
-      }
-    ],
-    "video": {
-      "src": "assets/squabblobs/film-four-player.mp4",
-      "kind": "gameplay",
-      "label": "Arsenal & four-player gameplay",
-      "duration": "44 SEC",
-      "note": "A tighter 27-second montage keeps all nine weapon/power demonstrations, followed by 16 seconds of four-player free-for-all across Snowy Arena, Volcano and Classic Arena. The finale uses the game’s native bots: real movement, attacks, terrain damage, eliminations and round wins. Staged demo starts, closer camera framing and native sound effects; draft picks are accelerated."
-    }
-  },
-  {
     "id": "tiny-convoy",
     "title": "Tiny Convoy",
     "category": "Concept studies",
@@ -289,82 +141,6 @@ window.PROJECTS = [
       "label": "Staged concept film",
       "duration": "30 SEC",
       "note": "Original GodotPrototypeFactory concept film. Interactions, outcomes and progression are staged to communicate the intended game."
-    }
-  },
-  {
-    "id": "seven-ants-underground",
-    "title": "7 Ants Underground",
-    "category": "Action & physics",
-    "genre": "Destructible-terrain arena",
-    "players": "Online multiplayer",
-    "stage": "Playable prototype",
-    "pitch": "Dig a way through. Make everyone else regret it.",
-    "description": "An ant-colony arena built on a Liero-like foundation. Destructible terrain, class kits and host-authoritative combat support a family of experiments, from an arcade colony mode to fixed-kit toybox and environmental ring-out variants.",
-    "loop": [
-      "Host or join a match.",
-      "Choose the class or toy kit allowed by its mode.",
-      "Dig, fire and use the terrain against other ants.",
-      "Survive the round and race for match wins."
-    ],
-    "note": "Also known as OreilChaos. Multiple modes are experiments within one developing arena project, rather than separate finished games.",
-    "images": [
-      {
-        "src": "assets/seven-ants-underground/01.jpg?v=6cb5e608ebc4",
-        "caption": "A ninja-rope swing becomes a midair Burrow Rocket attack in the native game renderer."
-      },
-      {
-        "src": "assets/seven-ants-underground/02.jpg?v=6cb5e608ebc4",
-        "caption": "A staged breach encounter demonstrates native terrain destruction and combat."
-      },
-      {
-        "src": "assets/seven-ants-underground/03.jpg?v=6cb5e608ebc4",
-        "caption": "Four scripted ants use bombs, rockets, springs, dirt spikes and falling clods in the Toybox arena."
-      }
-    ],
-    "video": {
-      "src": "assets/seven-ants-underground/film.mp4?v=6cb5e608ebc4",
-      "kind": "gameplay",
-      "label": "Rope & toybox gameplay",
-      "duration": "36 SEC",
-      "note": "Ninja-rope swings and an airborne rocket kill, a terrain breach, spring launches, wall splats, echo shots, rising lava and four-ant mayhem. Staged encounters using native game rules. Original score and native sound effects."
-    }
-  },
-  {
-    "id": "ant-delve",
-    "title": "Ant Delve",
-    "category": "Strategy",
-    "genre": "Hex strategy / competition",
-    "players": "2–4 colonies",
-    "stage": "Playable prototype",
-    "pitch": "Dig deeper. Bring it home before they do.",
-    "description": "Competing ant colonies carve shared tunnels through a hex-based cross-section of the earth. Place tunnel tiles, move a team of ants, mine valuable resources and return them to the nest while rivals and predators complicate the route.",
-    "loop": [
-      "Choose a colony and starting camp.",
-      "Extend the tunnel network with a hex tile.",
-      "Move ants to mine, fight, trade and carry resources home.",
-      "Bank the best score before the round limit."
-    ],
-    "note": "Hotseat, AI and online relay play are implemented. Balance and onboarding remain active areas of development.",
-    "images": [
-      {
-        "src": "assets/ant-delve/01.jpg",
-        "caption": "Three competing colonies dig into a shared underground hex board."
-      },
-      {
-        "src": "assets/ant-delve/02.jpg",
-        "caption": "Close view of ants, tunnels and resource/creature encounters."
-      },
-      {
-        "src": "assets/ant-delve/03.jpg",
-        "caption": "The turn-based board after additional AI colony actions."
-      }
-    ],
-    "video": {
-      "src": "assets/ant-delve/film-gameplay.mp4?v=be6257dd21b3",
-      "kind": "gameplay",
-      "label": "Colony turns & four-player gameplay",
-      "duration": "1:26",
-      "note": "Eight complete turns across four rounds at 1.5×, followed by a zoomed-out four-colony AI match at 6× speed. Watch routes grow, workers mine and return home, scores bank and an antlion fall. The opening has a staged start; the finale uses the standard map and native AI. Speeds are labeled, and captions follow native outcomes. Silent."
     }
   },
   {
@@ -448,41 +224,41 @@ window.PROJECTS = [
     }
   },
   {
-    "id": "shpinky-dinky",
-    "title": "ShpinkyDinky",
-    "category": "Action & physics",
-    "genre": "Arena sabotage",
-    "players": "Two-player multiplayer",
+    "id": "gurk",
+    "title": "Gurk",
+    "category": "Simulation",
+    "genre": "Dungeon cleaning",
+    "players": "Solo",
     "stage": "Playable prototype",
-    "pitch": "Your best weapon might be where you put the trap.",
-    "description": "Fight inside a readable utility chamber using a blaster and placed sabotage tools. Sticky bombs, bounce pads, vents and goo alter bodies and projectiles, making setup and redirection part of the fight.",
+    "pitch": "The heroes had their adventure. You have a mop.",
+    "description": "Gurk (Goblin Janitor 3D) puts you in a goblin janitor’s boots after a dungeon raid. Scrub blood and slime, haul monsters to recycling and dispose of heroes before the next party arrives. Between shifts, return to your lair to spend your wages on better tools and useful gear.",
     "loop": [
-      "Enter a duel in the utility chamber.",
-      "Move and fire while placing sabotage.",
-      "Redirect attacks and force a rival into danger.",
-      "Resolve the round, reset and try another setup."
+      "Choose a dungeon job from the lair.",
+      "Scrub, rinse, haul and recycle the mess.",
+      "Lure waking heroes onto traps and finish before the next party.",
+      "Clock out, collect wages and improve your equipment."
     ],
-    "note": "A two-player arena-sabotage prototype. This showcase stages four readable interactions using the existing movement, device and damage systems.",
+    "note": "First-person cleaning with career progression, job variants and a daily dungeon. Development footage; presentation may change.",
     "images": [
       {
-        "src": "assets/shpinky-dinky/01-bank-shot.jpg",
-        "caption": "A deliberately angled bounce pad redirects a real blaster shot toward the red opponent."
+        "src": "assets/gurk/01.jpg",
+        "caption": "A torchlit dungeon waiting for its next cleaning shift."
       },
       {
-        "src": "assets/shpinky-dinky/02-goo-exit.jpg",
-        "caption": "The runner crosses a prepared goo lane while the dropped bomb counts down."
+        "src": "assets/gurk/02.jpg",
+        "caption": "The real mop clears stains during a command-driven job."
       },
       {
-        "src": "assets/shpinky-dinky/03-vent-trap.jpg",
-        "caption": "A shove vent forces the opponent toward the bomb waiting at the exit."
+        "src": "assets/gurk/03.jpg",
+        "caption": "Explore the rooms and corridors from a janitor’s eye level."
       }
     ],
     "video": {
-      "src": "assets/shpinky-dinky/film-engineered.mp4",
+      "src": "assets/gurk/film-extended.mp4",
       "kind": "gameplay",
-      "label": "Engineered kills showcase",
-      "duration": "27 SEC",
-      "note": "Four scripted duels show each setup and payoff. Real game physics and damage, staged starting positions, simplified device labels and edited timing. Includes native game audio."
+      "label": "Extended feature trailer",
+      "duration": "1:56",
+      "note": "Captured in the real Gurk renderer with staged starting states, scripted player inputs and edited timing. Shows existing game systems, not a continuous player run. Original score and edited game sound effects; no voiceover."
     }
   },
   {
@@ -559,6 +335,230 @@ window.PROJECTS = [
       "label": "Gameplay trailer",
       "duration": "20 SEC",
       "note": "Real gameplay with reactive scripted inputs: each flipper taps independently as the ball approaches its reach, then rests. Two excerpts from the same run; native physics and scoring. Silent development footage."
+    }
+  },
+  {
+    "id": "meldkin",
+    "title": "Meldkin",
+    "category": "Strategy",
+    "genre": "Organism tower defense",
+    "players": "Solo",
+    "stage": "Playable prototype",
+    "pitch": "Grow a defense. Peel the enemy apart.",
+    "description": "Buy living defenses and grow them along authored upgrade paths. Enemies are ordered queues of bodies: remove the front layer and the next creature keeps moving. Placement and complementary capabilities matter as waves become denser.",
+    "loop": [
+      "Buy an organism and place it beside the lane.",
+      "Choose branching upgrades for its role.",
+      "Strip enemy layers and answer special defenses.",
+      "Survive waves, earn permanent XP and buy upgrades for future runs."
+    ],
+    "note": "Two maps and four buyable organisms, each with three upgrade paths. Permanent XP upgrades carry into future runs. The showcase stages later-wave builds, funds and XP in an isolated copy; combat, tower purchases and upgrade rules are native.",
+    "images": [
+      {
+        "src": "assets/meldkin/01-geode-build.jpg",
+        "caption": "Bloom, Mortarcap and Needleback combine their capabilities on Geode."
+      },
+      {
+        "src": "assets/meldkin/02-upgrade-paths.jpg",
+        "caption": "The native Needleback upgrade sheet: SPIKE reaches Ravine while LANCE stops at rung two."
+      },
+      {
+        "src": "assets/meldkin/03-permanent-upgrades.jpg",
+        "caption": "The permanent Upgrades tree with Mortarcap unlocked and Quicken selected for purchase."
+      }
+    ],
+    "video": {
+      "src": "assets/meldkin/film-builds-and-progression.mp4",
+      "kind": "gameplay",
+      "label": "Builds & progression showcase",
+      "duration": "1:07",
+      "note": "Three tower combinations on Interchange and Geode, a live tower panel, Crater and Ravine path purchases, and the permanent shop buying Seed gold I, Mortarcap and Quicken. Native gameplay with staged later-wave setups, funds and XP; explanatory captions and native procedural sound."
+    }
+  },
+  {
+    "id": "ant-delve",
+    "title": "Ant Delve",
+    "category": "Strategy",
+    "genre": "Hex strategy / competition",
+    "players": "2–4 colonies",
+    "stage": "Playable prototype",
+    "pitch": "Dig deeper. Bring it home before they do.",
+    "description": "Competing ant colonies carve shared tunnels through a hex-based cross-section of the earth. Place tunnel tiles, move a team of ants, mine valuable resources and return them to the nest while rivals and predators complicate the route.",
+    "loop": [
+      "Choose a colony and starting camp.",
+      "Extend the tunnel network with a hex tile.",
+      "Move ants to mine, fight, trade and carry resources home.",
+      "Bank the best score before the round limit."
+    ],
+    "note": "Hotseat, AI and online relay play are implemented. Balance and onboarding remain active areas of development.",
+    "images": [
+      {
+        "src": "assets/ant-delve/01.jpg",
+        "caption": "Three competing colonies dig into a shared underground hex board."
+      },
+      {
+        "src": "assets/ant-delve/02.jpg",
+        "caption": "Close view of ants, tunnels and resource/creature encounters."
+      },
+      {
+        "src": "assets/ant-delve/03.jpg",
+        "caption": "The turn-based board after additional AI colony actions."
+      }
+    ],
+    "video": {
+      "src": "assets/ant-delve/film-gameplay.mp4?v=be6257dd21b3",
+      "kind": "gameplay",
+      "label": "Colony turns & four-player gameplay",
+      "duration": "1:26",
+      "note": "Eight complete turns across four rounds at 1.5×, followed by a zoomed-out four-colony AI match at 6× speed. Watch routes grow, workers mine and return home, scores bank and an antlion fall. The opening has a staged start; the finale uses the standard map and native AI. Speeds are labeled, and captions follow native outcomes. Silent."
+    }
+  },
+  {
+    "id": "dungeon-janitor",
+    "title": "Goblin Janitor",
+    "category": "Simulation",
+    "genre": "Top-down cleaning",
+    "players": "Solo",
+    "stage": "Playable prototype",
+    "pitch": "A little goblin. A very unpleasant job.",
+    "description": "Play Grub, the dungeon owner’s overworked cleaner. Mop the floor, move bodies, push a wheelbarrow of monsters to recycling and drag heroes to disposal. Some of those heroes are only pretending to be dead.",
+    "loop": [
+      "Take a seeded dungeon-cleaning job.",
+      "Scrub the floor and rinse the overloaded mop.",
+      "Sort bodies, reset traps and lure waking heroes onto the spikes.",
+      "Clock out for wages and permanent tool upgrades."
+    ],
+    "note": "Standalone top-down game with five job ratings. The featured film is the factory’s authored V5 room study; screenshots show the standalone build.",
+    "images": [
+      {
+        "src": "assets/dungeon-janitor/01.jpg",
+        "caption": "A generated multi-room job with separate monster and hero disposal routes."
+      },
+      {
+        "src": "assets/dungeon-janitor/02.jpg",
+        "caption": "A waking survivor meets one of the dungeon’s traps."
+      },
+      {
+        "src": "assets/dungeon-janitor/03.jpg",
+        "caption": "Wheelbarrow transport through the dungeon’s connected spaces."
+      }
+    ],
+    "video": {
+      "src": "assets/dungeon-janitor/film-v5.mp4",
+      "kind": "staged",
+      "label": "V5 concept showcase",
+      "duration": "59 SEC",
+      "note": "Original DungeonJanitorV5 factory film, preserved intact. Shows trap reset, hero pursuit, trapping and disposal around 0:34–0:44, alongside cleaning, sorting and recycling. Scripted single-room showcase; silent."
+    }
+  },
+  {
+    "id": "squabblobs",
+    "title": "Squabblobs",
+    "category": "Action & physics",
+    "genre": "Ability party fighter",
+    "players": "Local / online multiplayer",
+    "stage": "Playable prototype",
+    "pitch": "Tiny ants. Extremely unreasonable abilities.",
+    "description": "Draft a set of powers, then fight across destructible arenas as a flexible ant-blob. Movement, crawling, knockback and combinations of abilities turn short rounds into improvised physics problems. The last survivor takes the round.",
+    "loop": [
+      "Join a lobby and choose a match setup.",
+      "Draft a three-ability loadout.",
+      "Combine powers and terrain destruction to eliminate rivals.",
+      "Score rounds, reach the match result and rematch."
+    ],
+    "note": "The project lives in the Bopl folder. Local play, online host/join, teams and sandbox are implemented. The film combines controlled weapon demonstrations with native four-player bot matches; it does not test network play.",
+    "images": [
+      {
+        "src": "assets/squabblobs/01-four-player.jpg",
+        "caption": "Four native CPU players exchange attacks in Snowy Arena; this free-for-all runs through ordinary bot inputs and game rules."
+      },
+      {
+        "src": "assets/squabblobs/02-weapons.jpg",
+        "caption": "The guided missile splits into three warheads in the faster nine-power montage."
+      }
+    ],
+    "video": {
+      "src": "assets/squabblobs/film-four-player.mp4",
+      "kind": "gameplay",
+      "label": "Arsenal & four-player gameplay",
+      "duration": "44 SEC",
+      "note": "A tighter 27-second montage keeps all nine weapon/power demonstrations, followed by 16 seconds of four-player free-for-all across Snowy Arena, Volcano and Classic Arena. The finale uses the game’s native bots: real movement, attacks, terrain damage, eliminations and round wins. Staged demo starts, closer camera framing and native sound effects; draft picks are accelerated."
+    }
+  },
+  {
+    "id": "seven-ants-underground",
+    "title": "7 Ants Underground",
+    "category": "Action & physics",
+    "genre": "Destructible-terrain arena",
+    "players": "Online multiplayer",
+    "stage": "Playable prototype",
+    "pitch": "Dig a way through. Make everyone else regret it.",
+    "description": "An ant-colony arena built on a Liero-like foundation. Destructible terrain, class kits and host-authoritative combat support a family of experiments, from an arcade colony mode to fixed-kit toybox and environmental ring-out variants.",
+    "loop": [
+      "Host or join a match.",
+      "Choose the class or toy kit allowed by its mode.",
+      "Dig, fire and use the terrain against other ants.",
+      "Survive the round and race for match wins."
+    ],
+    "note": "Also known as OreilChaos. Multiple modes are experiments within one developing arena project, rather than separate finished games.",
+    "images": [
+      {
+        "src": "assets/seven-ants-underground/01.jpg?v=6cb5e608ebc4",
+        "caption": "A ninja-rope swing becomes a midair Burrow Rocket attack in the native game renderer."
+      },
+      {
+        "src": "assets/seven-ants-underground/02.jpg?v=6cb5e608ebc4",
+        "caption": "A staged breach encounter demonstrates native terrain destruction and combat."
+      },
+      {
+        "src": "assets/seven-ants-underground/03.jpg?v=6cb5e608ebc4",
+        "caption": "Four scripted ants use bombs, rockets, springs, dirt spikes and falling clods in the Toybox arena."
+      }
+    ],
+    "video": {
+      "src": "assets/seven-ants-underground/film.mp4?v=6cb5e608ebc4",
+      "kind": "gameplay",
+      "label": "Rope & toybox gameplay",
+      "duration": "36 SEC",
+      "note": "Ninja-rope swings and an airborne rocket kill, a terrain breach, spring launches, wall splats, echo shots, rising lava and four-ant mayhem. Staged encounters using native game rules. Original score and native sound effects."
+    }
+  },
+  {
+    "id": "shpinky-dinky",
+    "title": "ShpinkyDinky",
+    "category": "Action & physics",
+    "genre": "Arena sabotage",
+    "players": "Two-player multiplayer",
+    "stage": "Playable prototype",
+    "pitch": "Your best weapon might be where you put the trap.",
+    "description": "Fight inside a readable utility chamber using a blaster and placed sabotage tools. Sticky bombs, bounce pads, vents and goo alter bodies and projectiles, making setup and redirection part of the fight.",
+    "loop": [
+      "Enter a duel in the utility chamber.",
+      "Move and fire while placing sabotage.",
+      "Redirect attacks and force a rival into danger.",
+      "Resolve the round, reset and try another setup."
+    ],
+    "note": "A two-player arena-sabotage prototype. This showcase stages four readable interactions using the existing movement, device and damage systems.",
+    "images": [
+      {
+        "src": "assets/shpinky-dinky/01-bank-shot.jpg",
+        "caption": "A deliberately angled bounce pad redirects a real blaster shot toward the red opponent."
+      },
+      {
+        "src": "assets/shpinky-dinky/02-goo-exit.jpg",
+        "caption": "The runner crosses a prepared goo lane while the dropped bomb counts down."
+      },
+      {
+        "src": "assets/shpinky-dinky/03-vent-trap.jpg",
+        "caption": "A shove vent forces the opponent toward the bomb waiting at the exit."
+      }
+    ],
+    "video": {
+      "src": "assets/shpinky-dinky/film-engineered.mp4",
+      "kind": "gameplay",
+      "label": "Engineered kills showcase",
+      "duration": "27 SEC",
+      "note": "Four scripted duels show each setup and payoff. Real game physics and damage, staged starting positions, simplified device labels and edited timing. Includes native game audio."
     }
   }
 ];
