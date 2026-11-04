@@ -1,0 +1,5 @@
+.openai/
+catalog-source.json
+catalog-prepared.json
+.DS_Store
+Thumbs.db
