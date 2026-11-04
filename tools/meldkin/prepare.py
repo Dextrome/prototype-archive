@@ -4,6 +4,7 @@ src=Path('E:/Meldkin'); stage=Path('work/meldkin-trailer'); dst=stage/'project'
 stage.mkdir(parents=True,exist_ok=True)
 roots=['Assets','Data','Scenes','Scripts','lib','Meldkin.Tests']
 files=[src/n for n in ['project.godot','Meldkin.csproj','Meldkin.sln','icon.svg','icon.svg.import'] if (src/n).exists()]
+files += list(src.glob('icon*.png'))
 for name in roots:
     files += [p for p in (src/name).rglob('*') if p.is_file() and not any(x in {'bin','obj','.godot'} for x in p.relative_to(src/name).parts)]
 hashes={p.relative_to(src).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
