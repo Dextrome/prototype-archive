@@ -453,12 +453,12 @@ window.PROJECTS = [
     "pitch": "Your best weapon might be where you put the trap.",
     "description": "Fight inside a readable utility chamber using a blaster and placed sabotage tools. Sticky bombs, bounce pads, vents and goo alter bodies and projectiles, making setup and redirection part of the fight.",
     "loop": [
-      "Start a host/client session.",
+      "Enter a duel in the utility chamber.",
       "Move and fire while placing sabotage.",
       "Redirect attacks and force a rival into danger.",
       "Resolve the round, reset and try another setup."
     ],
-    "note": "A host-authoritative combat prototype. Captures document real development sessions, including bot-driven verification matches.",
+    "note": "A two-player arena-sabotage prototype. This showcase stages four readable interactions using the existing movement, device and damage systems.",
     "images": [
       {
         "src": "assets/shpinky-dinky/01-bank-shot.jpg",
