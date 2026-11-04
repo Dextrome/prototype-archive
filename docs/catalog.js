@@ -386,23 +386,23 @@ window.PROJECTS = [
       "Combine powers and terrain destruction to eliminate rivals.",
       "Score rounds, reach the match result and rematch."
     ],
-    "note": "The project lives in the Bopl folder. Local play, online host/join, teams and sandbox are implemented; footage may show earlier art passes.",
+    "note": "The project lives in the Bopl folder. Local play, online host/join, teams and sandbox are implemented. The arsenal film uses controlled native gameplay setups; it does not test network play.",
     "images": [
       {
-        "src": "assets/squabblobs/01.jpg",
-        "caption": "Real bot ability effects and knockout announcements."
+        "src": "assets/squabblobs/01-weapons.jpg",
+        "caption": "The guided missile forks into three warheads when released."
       },
       {
-        "src": "assets/squabblobs/02.jpg",
-        "caption": "Native DOUBLE K.O. during the final round."
+        "src": "assets/squabblobs/02-draft.jpg",
+        "caption": "The native draft picks a bow, sticky bomb and guided missile; editorial labels follow the real selections."
       }
     ],
     "video": {
-      "src": "assets/squabblobs/film.mp4",
+      "src": "assets/squabblobs/film-arsenal.mp4",
       "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "20 SEC",
-      "note": "Captured from a running build with scripted inputs or native bots. Silent development footage."
+      "label": "Arsenal showcase",
+      "duration": "50 SEC",
+      "note": "Three native drafts select nine weapons and powers, followed by aimed uses, hits, size changes, terrain damage and a gravity-well collapse. Staged starts and scripted controller inputs; native game rules and sound effects. The boulder clip plays at 0.75× speed."
     }
   },
   {

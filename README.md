@@ -31,3 +31,5 @@ BlorpBrawl now features a 19-second trailer and four stills captured from the cu
 Goblin Ballistics has a new 20-second gameplay edit with independent, ball-aware flipper taps. Four left taps and two right taps replace constant simultaneous flipping; native physics and scoring are unchanged. The trailer uses two excerpts from one run and is silent.
 
 Sobriety Kills now has a 46-second combinations showcase covering all seven slice substances, four contrasting combat setups, a native merge, and cardiac and respiratory overdose endings. Later-wave stashes are staged; game rules and death outcomes remain native. Overdose sequences are slowed for readability.
+
+Squabblobs now has a 50-second arsenal showcase: three native drafts select nine weapons and powers, followed by aimed demonstrations with native hits, size changes, terrain damage, round wins and a gravity-well collapse. Starting positions and inputs are staged; game rules resolve the outcomes. Native procedural sound effects are retained, and the boulder clip plays at 0.75× speed.
