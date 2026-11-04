@@ -558,48 +558,6 @@ window.PROJECTS = [
     }
   },
   {
-    "id": "blorp-brawl",
-    "title": "BlorpBrawl",
-    "category": "Action & physics",
-    "genre": "Side-view arena brawler",
-    "players": "Two-player capture / multiplayer prototype",
-    "stage": "Early prototype",
-    "pitch": "A little blob. A very big burp.",
-    "description": "A side-view Unreal arena brawler with floaty movement, jumping and two contrasting attacks. The hammer crushes and eliminates a nearby opponent; Big Burp launches enemies away, creating recovery and ring-out opportunities. Cooldowns make positioning and timing matter.",
-    "loop": [
-      "Move and jump into attack range.",
-      "Commit to a hammer crush or launch an opponent with Big Burp.",
-      "Recover on the platform while abilities recharge.",
-      "Force a ring-out or land a crush to win the round."
-    ],
-    "note": "Working title FLOP LOTTO. Current Unreal graybox gameplay with placeholder art. The trailer uses two local players, scripted ordinary inputs, staged starting positions and capture cameras. Native movement, attacks, recovery, elimination and round rules resolve the results. This capture does not test network play.",
-    "images": [
-      {
-        "src": "assets/blorp-brawl/01-gameplay.jpg",
-        "caption": "Unreal gameplay: a running jump across the graybox arena."
-      },
-      {
-        "src": "assets/blorp-brawl/02-hammer.jpg",
-        "caption": "Unreal gameplay: the hammer visibly crushes its target before elimination."
-      },
-      {
-        "src": "assets/blorp-brawl/03-burp.jpg",
-        "caption": "Unreal gameplay: Big Burp launches the opposing blob."
-      },
-      {
-        "src": "assets/blorp-brawl/04-ring-out.jpg",
-        "caption": "Unreal gameplay: the launched opponent falls below the arena edge."
-      }
-    ],
-    "video": {
-      "src": "assets/blorp-brawl/film-gameplay.mp4",
-      "kind": "gameplay",
-      "label": "Unreal gameplay trailer",
-      "duration": "19 SEC",
-      "note": "Captured from the current Unreal build. Scripted player inputs and staged starts; native attacks and round outcomes. Selected impact frames play at half speed. Silent."
-    }
-  },
-  {
     "id": "brick-by-brick",
     "title": "Brick by Brick",
     "category": "Concept studies",
