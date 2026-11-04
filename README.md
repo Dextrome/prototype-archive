@@ -27,3 +27,5 @@ ShpinkyDinky’s 27-second engineered-kills showcase uses four scripted scenario
 Dungeon Janitor now features the original 59-second DungeonJanitorV5 factory film, including trap reset, survivor pursuit, trapping and disposal. The film is preserved intact and labeled as a staged concept showcase.
 
 BlorpBrawl now features a 19-second trailer and four stills captured from the current Unreal graybox. Scripted local player inputs demonstrate native movement, hammer crush, Big Burp launch/recovery and a ring-out win. Selected impacts are slowed; the film is silent.
+
+Goblin Ballistics has a new 20-second gameplay edit with independent, ball-aware flipper taps. Four left taps and two right taps replace constant simultaneous flipping; native physics and scoring are unchanged. The trailer uses two excerpts from one run and is silent.

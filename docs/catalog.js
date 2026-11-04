@@ -512,11 +512,11 @@ window.PROJECTS = [
       }
     ],
     "video": {
-      "src": "assets/goblin-ballistics/film.mp4",
+      "src": "assets/goblin-ballistics/film-timed.mp4",
       "kind": "gameplay",
       "label": "Gameplay trailer",
-      "duration": "16 SEC",
-      "note": "Captured from a running build with scripted inputs or native bots. Silent development footage."
+      "duration": "20 SEC",
+      "note": "Real gameplay with reactive scripted inputs: each flipper taps independently as the ball approaches its reach, then rests. Two excerpts from the same run; native physics and scoring. Silent development footage."
     }
   },
   {
