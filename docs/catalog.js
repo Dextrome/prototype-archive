@@ -30,11 +30,11 @@ window.PROJECTS = [
       }
     ],
     "video": {
-      "src": "assets/gurk/film.mp4",
+      "src": "assets/gurk/film-extended.mp4",
       "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "14 SEC",
-      "note": "Real cleaning simulation driven by ordinary bot commands. Silent footage; an additional transport shot completes the short edit."
+      "label": "Extended feature trailer",
+      "duration": "1:56",
+      "note": "Captured in the real Gurk renderer with staged starting states, scripted player inputs and edited timing. Shows existing game systems, not a continuous player run. Original score and edited game sound effects; no voiceover."
     }
   },
   {
