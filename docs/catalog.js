@@ -360,11 +360,11 @@ window.PROJECTS = [
       }
     ],
     "video": {
-      "src": "assets/ant-delve/film.mp4",
+      "src": "assets/ant-delve/film-gameplay.mp4",
       "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "18 SEC",
-      "note": "Captured from a running build with scripted inputs or native bots. Silent development footage. Ant Delve simulation runs at 3× speed."
+      "label": "Dig, mine & return showcase",
+      "duration": "52 SEC",
+      "note": "Actual gameplay with staged starting positions: connect a tunnel, mine sugar over three turns, bank the haul and clear an antlion chamber. Scripted legal commands, focused cameras and explanatory captions. Rival turns omitted; combat playback slowed for clarity. Silent."
     }
   },
   {
