@@ -1,0 +1,37 @@
+{
+  "title": "7 Ants Underground \u2014 rope & toybox gameplay",
+  "duration_seconds": 36.2,
+  "resolution": [
+    1600,
+    900
+  ],
+  "fps": 60,
+  "game_source": "E:/Oreil/OreilChaos",
+  "isolated_capture_copy": "E:/trailer-production/seven-ants/game",
+  "game_version": "Godot 4.6.1 Mono / OreilChaos SimVersion 40",
+  "staging": [
+    "Initial actor positions and classes",
+    "Selected loadouts and ordinary scripted inputs",
+    "Additional native terrain stamps for the breach encounter",
+    "Panic lava clock starts at tick 630 (9 seconds)",
+    "Closer camera framing and hidden HUD"
+  ],
+  "native": [
+    "Movement and rope simulation",
+    "Weapon cooldowns and ammo",
+    "Projectile collisions",
+    "Terrain edits",
+    "Damage and kills",
+    "Echo replay scheduling",
+    "Spring triggers",
+    "Wall-splat checks",
+    "Lava damage"
+  ],
+  "capture_only_adaptations": [
+    "Fixed-frame clock for native hit-stop restoration",
+    "Offline local actors driven through the existing host simulation"
+  ],
+  "edit": "Forward cuts at normal speed; chapter graphics and captions are editorial",
+  "audio": "Original synthesized electronic score plus native procedural sound effects",
+  "final_sha256": "6cb5e608ebc4d37cee4288cdfece9590382e5e54da81f50bce1bea75e5c91e60"
+}

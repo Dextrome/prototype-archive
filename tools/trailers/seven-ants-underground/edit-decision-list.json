@@ -1,0 +1,111 @@
+{
+  "fps": 60,
+  "duration": 36.2,
+  "segments": [
+    {
+      "shot": "clamp",
+      "source_start": 0.5,
+      "duration": 1.4,
+      "overlay": "hook",
+      "timeline_start": 0
+    },
+    {
+      "shot": null,
+      "source_start": 0,
+      "duration": 1.4,
+      "overlay": "title",
+      "timeline_start": 1.4
+    },
+    {
+      "shot": "rocket",
+      "source_start": 0.3,
+      "duration": 1.2,
+      "overlay": "dig",
+      "timeline_start": 2.8
+    },
+    {
+      "shot": "breach",
+      "source_start": 0.35,
+      "duration": 1.2,
+      "overlay": "breach",
+      "timeline_start": 4.0
+    },
+    {
+      "shot": "breach",
+      "source_start": 2.6,
+      "duration": 1.0,
+      "overlay": "breach",
+      "timeline_start": 5.2
+    },
+    {
+      "shot": "breach",
+      "source_start": 4.8,
+      "duration": 1.2,
+      "overlay": "breach",
+      "timeline_start": 6.2
+    },
+    {
+      "shot": "rope0",
+      "source_start": 0.1,
+      "duration": 5.75,
+      "overlay": "rope",
+      "timeline_start": 7.4
+    },
+    {
+      "shot": "rope2",
+      "source_start": 0.25,
+      "duration": 3.7,
+      "overlay": "rope-kill",
+      "timeline_start": 13.15
+    },
+    {
+      "shot": "spring",
+      "source_start": 0.05,
+      "duration": 1.85,
+      "overlay": "spring",
+      "timeline_start": 16.85
+    },
+    {
+      "shot": "bounce",
+      "source_start": 0.55,
+      "duration": 1.2,
+      "overlay": "bounce",
+      "timeline_start": 18.7
+    },
+    {
+      "shot": "echo",
+      "source_start": 0.45,
+      "duration": 1.6,
+      "overlay": "echo-shot",
+      "timeline_start": 19.9
+    },
+    {
+      "shot": "echo",
+      "source_start": 2.85,
+      "duration": 2.05,
+      "overlay": "echo-replay",
+      "timeline_start": 21.5
+    },
+    {
+      "shot": "panic",
+      "source_start": 0.15,
+      "duration": 3.55,
+      "overlay": "panic",
+      "timeline_start": 23.55
+    },
+    {
+      "shot": "chaos",
+      "source_start": 0.3,
+      "duration": 5.6,
+      "overlay": "chaos",
+      "timeline_start": 27.1
+    },
+    {
+      "shot": null,
+      "source_start": 0,
+      "duration": 3.5,
+      "overlay": "end",
+      "timeline_start": 32.7
+    }
+  ]
+}

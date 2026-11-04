@@ -1,0 +1,13 @@
+{
+  "duration_seconds": 36.2,
+  "frames": 2172,
+  "fps": 60,
+  "full_decode": "passed",
+  "catalog_syntax": "passed",
+  "project_media_references": "passed",
+  "project_metadata_sync": "passed",
+  "catalog_cache_hash": "279a49e5ebdb",
+  "native_rope_rocket_kill": "verified in capture log",
+  "capture_build": "0 errors, 0 warnings",
+  "capture_runtime_errors": 0
+}

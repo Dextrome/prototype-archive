@@ -309,24 +309,24 @@ window.PROJECTS = [
     "note": "Also known as OreilChaos. Multiple modes are experiments within one developing arena project, rather than separate finished games.",
     "images": [
       {
-        "src": "assets/seven-ants-underground/01.jpg",
-        "caption": "Real ant-arena combat from a host-and-bot match."
+        "src": "assets/seven-ants-underground/01.jpg?v=6cb5e608ebc4",
+        "caption": "A ninja-rope swing becomes a midair Burrow Rocket attack in the native game renderer."
       },
       {
-        "src": "assets/seven-ants-underground/02.jpg",
-        "caption": "The current game renderer and destructible underground arena."
+        "src": "assets/seven-ants-underground/02.jpg?v=6cb5e608ebc4",
+        "caption": "A staged breach encounter demonstrates native terrain destruction and combat."
       },
       {
-        "src": "assets/seven-ants-underground/03.jpg",
-        "caption": "A later moment in the same real development match."
+        "src": "assets/seven-ants-underground/03.jpg?v=6cb5e608ebc4",
+        "caption": "Four scripted ants use bombs, rockets, springs, dirt spikes and falling clods in the Toybox arena."
       }
     ],
     "video": {
-      "src": "assets/seven-ants-underground/film.mp4",
+      "src": "assets/seven-ants-underground/film.mp4?v=6cb5e608ebc4",
       "kind": "gameplay",
-      "label": "Gameplay trailer",
-      "duration": "10 SEC",
-      "note": "Actual host-and-bot gameplay with scripted movement and fire inputs. Silent development capture."
+      "label": "Rope & toybox gameplay",
+      "duration": "36 SEC",
+      "note": "Ninja-rope swings and an airborne rocket kill, a terrain breach, spring launches, wall splats, echo shots, rising lava and four-ant mayhem. Staged encounters using native game rules. Original score and native sound effects."
     }
   },
   {
