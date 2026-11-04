@@ -560,43 +560,5 @@ window.PROJECTS = [
       "duration": "20 SEC",
       "note": "Real gameplay with reactive scripted inputs: each flipper taps independently as the ball approaches its reach, then rests. Two excerpts from the same run; native physics and scoring. Silent development footage."
     }
-  },
-  {
-    "id": "sobriety-kills",
-    "title": "Sobriety Kills",
-    "category": "Strategy",
-    "genre": "Drafting / risk auto-battler",
-    "players": "Solo",
-    "stage": "Playable prototype",
-    "pitch": "Power is a combination. So is disaster.",
-    "description": "Draft substances into a stash, combine them into cocktails and decide what to activate before combat. Strong effects help beat escalating enemies, while dangerous pairings push an overdose meter toward a very abrupt ending.",
-    "loop": [
-      "Draft an offer into the stash.",
-      "Merge compatible items or keep them separate.",
-      "Choose an active stack with an eye on the risk.",
-      "Fight a wave, survive the consequences and draft again."
-    ],
-    "note": "The playable vertical slice includes draft, merge, activation and combat with a limited catalog. The larger roster and presentation remain in development.",
-    "images": [
-      {
-        "src": "assets/sobriety-kills/02-combat.jpg",
-        "caption": "Mushrooms and Diphenhydramine alternate wrong-angle attacks and uncontrolled flailing."
-      },
-      {
-        "src": "assets/sobriety-kills/01-combinations.jpg",
-        "caption": "The real merge UI combines Cocaine and Mushrooms into one medium-risk cocktail."
-      },
-      {
-        "src": "assets/sobriety-kills/03-overdose.jpg",
-        "caption": "A fatal Cocaine–Heroin pairing fills the native OD meter and ends in cardiac arrest."
-      }
-    ],
-    "video": {
-      "src": "assets/sobriety-kills/film-combinations.mp4",
-      "kind": "gameplay",
-      "label": "Combo & overdose showcase",
-      "duration": "46 SEC",
-      "note": "Six combinations across all seven slice substances, mixed attack styles, enemy slowdown, a merge and two native overdose endings. Staged wave-four stashes; existing combat and OD rules. The overdose sequences are slowed for readability. Silent."
-    }
   }
 ];
