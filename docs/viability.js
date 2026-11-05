@@ -13,6 +13,22 @@ window.COMMERCIAL_VIABILITY = {
     ["Operations", 5]
   ],
   projects: {
+    "collision-course": {
+      grades: [3,3.5,4.5,3,3.5,3,3,5],
+      deduction: 0,
+      summary: "Picking which creature to throw can turn a chaotic fight into a deliberate bank, blast or tether. The commercial test is whether players want to set up a second chain after the first one works.",
+      reasons: [
+        "Stick It to the Stickman has thousands of Steam reviews, while the closer arena comparison GOBSMACKED has only dozens. That supports interest in physics brawling, with less evidence for this exact arena format.",
+        "Gods vs Steam also centers on grabbing and throwing enemies, and Upload Aliens turns enemies into projectiles. Collision Course has a clearer distinction when the choice between a ricochet, blast and tether changes the best throw.",
+        "One clean shot can show the pickup, the wall bank and a secondary hit in seconds. A second clip can show the same room solved with a tether.",
+        "Grab range, a readable bank preview and clear impact feedback can teach the first throw quickly. Moving bodies and later rebounds still need to feel predictable enough for players to repeat a plan.",
+        "A short run can reward mastery if enemy mixes and room layouts change which chain works. Repeating the same blast setup would quickly narrow the replay value.",
+        "€7.99–€9.99 is a test range for a compact finished game. Belgian Steam list prices were €4.99 for GOBSMACKED, €10.25 for Upload Aliens and €11.99 for Stick It to the Stickman.",
+        "A finished release needs varied encounter layouts, reliable collision behavior in crowded rooms, and a short set of run modifiers. Reusable creature interactions contain the scope, while balancing their combinations adds testing work.",
+        "A solo premium release can run without matchmaking or a live player population."
+      ],
+      sources: [["Stick It to the Stickman","2085540"], ["Ash & Adam’s GOBSMACKED","2769410"], ["Upload Aliens","4234950"], ["Gods vs Steam","4259320"]]
+    },
     "hellgrinder": {
       grades: [3,5,4,3,4,3,4,5],
       deduction: 0,
