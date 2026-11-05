@@ -11,6 +11,7 @@ To preview locally, open `docs/index.html` directly, or serve `docs` with any st
 ## Update it
 
 - Project copy, loop steps, captions and film labels: `docs/catalog.js`.
+- Commercial viability grades, score weights, reasoning and sources: `docs/viability.js`.
 - Layout and responsive styling: `docs/style.css`.
 - Filtering, search, project dialogs, image viewer and share links: `docs/app.js`.
 - Media: `docs/assets/<project-id>/`.
@@ -35,7 +36,7 @@ Murderbox has a 61-second modules and synergies showcase covering all three weap
 
 Mazacre TD has a 1:17 run-progression trailer: nine waves grow a 37-cell route into a 190-cell maze with checkpoint-group separation, a shared choke, Piledriver specialization, damage/speed upgrades, supply and all four research categories. Native bot maze plans and curated purchases are replayed through real UI commands with earned minerals. Combat runs at the game’s visible 4× speed; brief planning shots are held for explanation. Native sound effects are retained.
 
-The archive uses a dark theme throughout, with bright text and gold/sage accents. Palette variables live in `docs/style.css`; the curated project order is the array order in `docs/catalog.js`.
+The archive uses a dark theme throughout, with bright text and gold/sage accents. Palette variables live in `docs/style.css`; the collection sorts by the commercial viability score calculated from `docs/viability.js`.
 
 Ant Delve has a 1:26 gameplay trailer: eight consecutive complete turns across four rounds play at 1.5× with concise phase captions, followed by a 24-second, zoomed-out four-player AI match at 6× speed. The opening shows both colonies building routes, mining, banking hauls and clearing an antlion. The finale uses the standard Slice5 map and native AI: all four colonies play, add 34 tiles and bank points as the match reaches round nine. The first board is staged in an isolated copy; commands, AI and outcomes use native game rules. Cargo, scores and progression counters follow the capture audits. Combat playback is slowed in the capture, and the original game is preserved. The film is silent; capture and edit tools are in `tools/ant-delve/`.
 
