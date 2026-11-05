@@ -12,6 +12,7 @@ const ranks = new Map(projects.map((project, i) => [
   ? projects.findIndex(g => g.score === project.score) + 1
   : i + 1
 ]));
+const displayProjects = [...projects].sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)));
 const $=s=>document.querySelector(s);
 const grid=$("#project-grid"), search=$("#search"), dialog=$("#project-dialog"), imageDialog=$("#image-dialog");
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
@@ -19,8 +20,8 @@ let filter="All", active=null, photoIndex=0, lastFocus=null, closing=false;
 const filmShort=g=>g.video?.kind==="staged"?"STAGED CONCEPT":g.video?.kind==="reel"?"CONCEPT REEL":"GAMEPLAY";
 function render(){
  const term=search.value.trim().toLowerCase();
- const list=projects.filter(g=>(filter==="All"||g.category===filter)&&(!term||[g.title,g.genre,g.pitch,g.description,...g.loop].join(" ").toLowerCase().includes(term)));
- grid.innerHTML=list.map(g=>`<article class="project-card"><button class="card-image" data-open="${esc(g.id)}" aria-label="Explore ${esc(g.title)}"><img src="${esc(g.images[0].src)}" alt="${esc(g.images[0].caption)}" loading="lazy" width="640" height="400"><span class="image-wash"></span><span class="card-number">${g.assessment ? "RANK "+String(ranks.get(g.id)).padStart(2,"0") : "UNRANKED"}</span><span class="film-type"><span class="play-symbol" aria-hidden="true">▶</span>${filmShort(g)}</span></button><div class="card-meta"><span class="genre">${esc(g.genre)}</span><span class="stage">${esc(g.stage)}</span></div><h3>${esc(g.title)}</h3><p class="card-pitch">${esc(g.pitch)}</p><div class="card-bottom"><span>${esc(g.players)}</span><button class="explore-button" data-open="${esc(g.id)}" aria-label="Open ${esc(g.title)}">Explore project <span aria-hidden="true">↗</span></button></div></article>`).join("");
+ const list=displayProjects.filter(g=>(filter==="All"||g.category===filter)&&(!term||[g.title,g.genre,g.pitch,g.description,...g.loop].join(" ").toLowerCase().includes(term)));
+ grid.innerHTML=list.map(g=>`<article class="project-card"><button class="card-image" data-open="${esc(g.id)}" aria-label="Explore ${esc(g.title)}"><img src="${esc(g.images[0].src)}" alt="${esc(g.images[0].caption)}" loading="lazy" width="640" height="400"><span class="image-wash"></span><span class="card-number">${g.featured ? "#1 · FEATURED" : g.assessment ? "RANK "+String(ranks.get(g.id)).padStart(2,"0") : "UNRANKED"}</span><span class="film-type"><span class="play-symbol" aria-hidden="true">▶</span>${filmShort(g)}</span></button><div class="card-meta"><span class="genre">${esc(g.genre)}</span><span class="stage">${esc(g.stage)}</span></div><h3>${esc(g.title)}</h3><p class="card-pitch">${esc(g.pitch)}</p><div class="card-bottom"><span>${esc(g.players)}</span><button class="explore-button" data-open="${esc(g.id)}" aria-label="Open ${esc(g.title)}">Explore project <span aria-hidden="true">↗</span></button></div></article>`).join("");
  $("#results-count").textContent=`${list.length} ${list.length===1?"project":"projects"}${filter!=="All"?" / "+filter.toLowerCase():" in the archive"}${term?" matching “"+search.value.trim()+"”":""}`;
  $("#empty").hidden=list.length!==0;
 }

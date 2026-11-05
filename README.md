@@ -1,6 +1,6 @@
 # 7ants — The Prototype Archive
 
-A buildless, responsive gallery of 15 unreleased games and concept studies, with gameplay loops, 43 screenshots, and 15 films. Slot Theory, DexUO, Bloodline, Card Scalper, AnthroWorld, Orpob, BlorpBrawl, Corpse City, The Ossuary and Sobriety Kills are excluded.
+A buildless, responsive gallery of 16 unreleased games and concept studies, with gameplay loops, 47 screenshots, and 16 films. Slot Theory, DexUO, Bloodline, Card Scalper, AnthroWorld, Orpob, BlorpBrawl, Corpse City, The Ossuary and Sobriety Kills are excluded.
 
 ## Open it
 
@@ -36,7 +36,7 @@ Murderbox has a 61-second modules and synergies showcase covering all three weap
 
 Mazacre TD has a 1:17 run-progression trailer: nine waves grow a 37-cell route into a 190-cell maze with checkpoint-group separation, a shared choke, Piledriver specialization, damage/speed upgrades, supply and all four research categories. Native bot maze plans and curated purchases are replayed through real UI commands with earned minerals. Combat runs at the game’s visible 4× speed; brief planning shots are held for explanation. Native sound effects are retained.
 
-The archive uses a dark theme throughout, with bright text and gold/sage accents. Palette variables live in `docs/style.css`; the collection sorts by the commercial viability score calculated from `docs/viability.js`.
+The archive uses a dark theme throughout, with bright text and gold/sage accents. Palette variables live in `docs/style.css`; the collection opens with the featured project, followed by projects sorted by the commercial viability score calculated from `docs/viability.js`.
 
 Ant Delve has a 1:26 gameplay trailer: eight consecutive complete turns across four rounds play at 1.5× with concise phase captions, followed by a 24-second, zoomed-out four-player AI match at 6× speed. The opening shows both colonies building routes, mining, banking hauls and clearing an antlion. The finale uses the standard Slice5 map and native AI: all four colonies play, add 34 tiles and bank points as the match reaches round nine. The first board is staged in an isolated copy; commands, AI and outcomes use native game rules. Cargo, scores and progression counters follow the capture audits. Combat playback is slowed in the capture, and the original game is preserved. The film is silent; capture and edit tools are in `tools/ant-delve/`.
 
@@ -47,3 +47,5 @@ Meldkin has a 1:07 builds and progression showcase covering all four organisms, 
 Rot Garden Romance has a 60-second gameplay story following a Blood Turnip from planting to a harvested Reckless Compliment, deck inspection, Mira’s Cemetery Picnic, a native 27/25 win and the resulting Bond. Longer dialogue and decision holds give the sequence room to unfold. Growth time is skipped with a visible disclosure; ordinary UI handlers, native card rules and progression resolve the outcome. The capture uses an isolated project and profile. The film is silent and is labeled gameplay throughout the archive. Capture and edit sources are in `tools/trailers/rot-garden-romance/`.
 
 Hellgrinder has a 1:34 full-run gameplay trailer following one normal-budget standard run through procurement, five shifts, operator actions, a rejected shipment, upgrades, incidents, debt repayment and the native success ending at 350 debt. The rendered run matches its UI rehearsal exactly; no meters, funds, timers or results are forced. Chapter captions accompany native procedural audio, with the full game frame preserved above a separate caption strip. Capture and edit helpers are in `tools/hellgrinder/`.
+
+Collision Course has a 50-second physics gameplay showcase from GodotPrototypeFactory. Five authored encounters demonstrate explosive throws, wall banks, Goo tethers, a blast-driven Crusher and a final cascade. The director stages each setup and drives the controls. The same collision rules used in interactive play resolve impacts and damage. The supplied film is preserved in full with its synthesized game audio.

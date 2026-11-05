@@ -560,5 +560,48 @@ window.PROJECTS = [
       "duration": "27 SEC",
       "note": "Bank shots around cover, an attached bomb that follows a retreat, and a vent that turns a failed trap into a kill. Scripted inputs and staged geometry use native game rules; freezes, slow motion and overlays explain the outcomes. Original score and native sound effects."
     }
+  },
+  {
+    "id": "collision-course",
+    "featured": true,
+    "title": "Collision Course",
+    "category": "Action & physics",
+    "genre": "Physics-driven arena action",
+    "players": "Solo",
+    "stage": "Playable prototype",
+    "pitch": "Every enemy is a weapon.",
+    "description": "Grab and throw creatures in a ruined containment bay. Bank Bouncers off walls, link enemies with Goo, or detonate a Bomber to drive a heavy Crusher through the crowd. Each creature changes what the next collision can do.",
+    "loop": [
+      "Make room to grab a nearby creature.",
+      "Charge a throw and aim into the crowd or bank it off a wall.",
+      "Set off blasts, rebounds and tethers to spread the impact.",
+      "Reposition and use the surviving creatures to set up the next throw."
+    ],
+    "note": "The interactive factory build has one resettable arena. Live collision rules resolve momentum, damage, blasts and tether breakage in both interactive play and the trailer.",
+    "images": [
+      {
+        "src": "assets/collision-course/01-first-blast.jpg",
+        "caption": "A thrown Bomber detonates at the edge of a tightly packed group."
+      },
+      {
+        "src": "assets/collision-course/02-bank-aim.jpg",
+        "caption": "The throw guide previews a wall bank as the operator aims a Bouncer."
+      },
+      {
+        "src": "assets/collision-course/03-goo-bridge.jpg",
+        "caption": "Green Goo links creatures near a column with spring-like tethers."
+      },
+      {
+        "src": "assets/collision-course/04-cascade.jpg",
+        "caption": "A Crusher and nearby creatures are caught in the final chain reaction."
+      }
+    ],
+    "video": {
+      "src": "assets/collision-course/Collision-Course.mp4",
+      "kind": "gameplay",
+      "label": "Physics gameplay showcase",
+      "duration": "50 SEC",
+      "note": "Five authored setups show explosive throws, wall banks, adhesive tethers, a Crusher driven by blasts and a final cascade. The director sets up encounters and drives the player controls. The live physics solver resolves impacts and damage. Includes brief slow motion and synthesized game audio."
+    }
   }
 ];
