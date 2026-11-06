@@ -1,18 +1,18 @@
 "use strict";
 (() => {
 const viability = window.COMMERCIAL_VIABILITY;
+const scoreMax = viability?.factors.reduce((total, [, weight]) => total + weight, 0);
 const projects = (window.PROJECTS || []).map(project => {
  const assessment = viability?.projects[project.id];
  if (!assessment) return project;
  const base = viability.factors.reduce((total, [, weight], i) => total + assessment.grades[i] * weight / 5, 0);
  return { ...project, assessment, base, score: base + assessment.deduction };
-}).sort((a, b) => (b.score ?? -Infinity) - (a.score ?? -Infinity));
+}).sort((a, b) => ((b.score ?? -Infinity) - (a.score ?? -Infinity)) || a.title.localeCompare(b.title));
 const ranks = new Map(projects.map((project, i) => [
  project.id, i > 0 && project.score === projects[i - 1].score
   ? projects.findIndex(g => g.score === project.score) + 1
   : i + 1
 ]));
-const displayProjects = [...projects].sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)));
 const $=s=>document.querySelector(s);
 const grid=$("#project-grid"), search=$("#search"), dialog=$("#project-dialog"), imageDialog=$("#image-dialog");
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
@@ -20,8 +20,8 @@ let filter="All", active=null, photoIndex=0, lastFocus=null, closing=false;
 const filmShort=g=>g.video?.kind==="staged"?"STAGED CONCEPT":g.video?.kind==="reel"?"CONCEPT REEL":"GAMEPLAY";
 function render(){
  const term=search.value.trim().toLowerCase();
- const list=displayProjects.filter(g=>(filter==="All"||g.category===filter)&&(!term||[g.title,g.genre,g.pitch,g.description,...g.loop].join(" ").toLowerCase().includes(term)));
- grid.innerHTML=list.map(g=>`<article class="project-card"><button class="card-image" data-open="${esc(g.id)}" aria-label="Explore ${esc(g.title)}"><img src="${esc(g.images[0].src)}" alt="${esc(g.images[0].caption)}" loading="lazy" width="640" height="400"><span class="image-wash"></span><span class="card-number">${g.featured ? "#1 · FEATURED" : g.assessment ? "RANK "+String(ranks.get(g.id)).padStart(2,"0") : "UNRANKED"}</span><span class="film-type"><span class="play-symbol" aria-hidden="true">▶</span>${filmShort(g)}</span></button><div class="card-meta"><span class="genre">${esc(g.genre)}</span><span class="stage">${esc(g.stage)}</span></div><h3>${esc(g.title)}</h3><p class="card-pitch">${esc(g.pitch)}</p><div class="card-bottom"><span>${esc(g.players)}</span><button class="explore-button" data-open="${esc(g.id)}" aria-label="Open ${esc(g.title)}">Explore project <span aria-hidden="true">↗</span></button></div></article>`).join("");
+ const list=projects.filter(g=>(filter==="All"||g.category===filter)&&(!term||[g.title,g.genre,g.pitch,g.description,...g.loop].join(" ").toLowerCase().includes(term)));
+ grid.innerHTML=list.map(g=>`<article class="project-card"><button class="card-image" data-open="${esc(g.id)}" aria-label="Explore ${esc(g.title)}"><img src="${esc(g.images[0].src)}" alt="${esc(g.images[0].caption)}" loading="lazy" width="640" height="400"><span class="image-wash"></span><span class="card-number">${g.assessment ? "RANK "+String(ranks.get(g.id)).padStart(2,"0") : "UNRANKED"}</span><span class="film-type"><span class="play-symbol" aria-hidden="true">▶</span>${filmShort(g)}</span></button><div class="card-meta"><span class="genre">${esc(g.genre)}</span><span class="stage">${esc(g.stage)}</span></div><h3>${esc(g.title)}</h3><p class="card-pitch">${esc(g.pitch)}</p><div class="card-bottom"><span>${esc(g.players)}</span><button class="explore-button" data-open="${esc(g.id)}" aria-label="Open ${esc(g.title)}">Explore project <span aria-hidden="true">↗</span></button></div></article>`).join("");
  $("#results-count").textContent=`${list.length} ${list.length===1?"project":"projects"}${filter!=="All"?" / "+filter.toLowerCase():" in the archive"}${term?" matching “"+search.value.trim()+"”":""}`;
  $("#empty").hidden=list.length!==0;
 }
@@ -36,12 +36,13 @@ function viabilityPanel(project) {
  ).join("");
  return `<div class="viability-header">
   <div><div class="eyebrow">RANK ${ranks.get(project.id)} OF ${viabilityCount} · ${esc(viability.reviewed)}</div><h3>Commercial Viability</h3><p>${esc(assessment.summary)}</p></div>
-  <p class="viability-score" aria-label="${score} out of 100"><strong>${score}</strong><span>/ 100</span></p>
+  <p class="viability-score" aria-label="${score} out of ${scoreMax}"><strong>${score}</strong><span>/ ${scoreMax}</span></p>
  </div>
  <ul class="viability-factors" aria-label="Score breakdown">${factors}</ul>
- ${assessment.competition ? `<div class="viability-deduction"><h4>Competition deduction <span>−${Math.abs(assessment.deduction)} pts</span></h4><p>${esc(assessment.competition)} Factor subtotal: ${base}/100.</p></div>` : ""}
+ ${assessment.competition ? `<div class="viability-deduction"><h4>Competition deduction <span>−${Math.abs(assessment.deduction)} pts</span></h4><p>${esc(assessment.competition)} Factor subtotal: ${base}/${scoreMax}.</p></div>` : ""}
+ <div class="viability-deduction"><h4>Production work <span>Not scored</span></h4><p>${esc(assessment.production)}</p></div>
  <div class="viability-sources"><h4>Market comparisons</h4><ul>${sources}</ul></div>
- <p class="viability-note">Research estimate for a finished premium PC game. The score reflects the concept and its market, independent of prototype progress.</p>`;
+ <p class="viability-note">Assessment of a finished premium PC game. Production budgets are unpriced, so production work is shown separately from the seven scored factors.</p>`;
 }
 const viabilityCount = projects.filter(project => project.assessment).length;
 function setupDetailTabs() {

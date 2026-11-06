@@ -563,7 +563,6 @@ window.PROJECTS = [
   },
   {
     "id": "collision-course",
-    "featured": true,
     "title": "Collision Course",
     "category": "Action & physics",
     "genre": "Physics-driven arena action",
