@@ -26,3 +26,7 @@
 .viability-sources a{font-size:13px;color:var(--gold);text-decoration:underline;text-underline-offset:3px}
 .viability-note{margin:18px 0 0;font-size:12px;color:var(--muted)}
 @media(max-width:600px){.viability-factors{grid-template-columns:1fr}}
+
+/* Keep the full studio name readable on narrow screens. */
+.studio-link{font-size:1rem}
+@media(max-width:760px){.wordmark{flex-direction:column;align-items:flex-start;gap:6px}.wordmark-sub{border-left:0;padding-left:0;margin-left:0;max-width:none}.masthead{height:auto;min-height:88px;flex-wrap:wrap;padding-block:16px}}

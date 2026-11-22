@@ -1,4 +1,4 @@
-# 7ants — The Prototype Archive
+# 7 Ants Games — The Prototype Archive
 
 A buildless, responsive gallery of 16 unreleased games and concept studies, with gameplay loops, 47 screenshots, and 16 films. Slot Theory, DexUO, Bloodline, Card Scalper, AnthroWorld, Orpob, BlorpBrawl, Corpse City, The Ossuary and Sobriety Kills are excluded.
 
